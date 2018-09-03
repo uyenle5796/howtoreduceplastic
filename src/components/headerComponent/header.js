@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
-
-  toggleSidebar() {
-
-  }
 
   render() {
     return (
       <header>
-        <div className="site-name">Top Tips Plastic</div>
-
-        <div className="sidebar-button" onClick={this.toggleSidebar}>
-          <span></span>
-          <span></span>
-          <span></span>
+        <div className="site-name">
+          <li>
+            <Link to="/">How to Ditch Plastic</Link>
+          </li>
         </div>
-
       </header>
     );
   }
