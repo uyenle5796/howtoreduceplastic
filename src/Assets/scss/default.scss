@@ -69,33 +69,7 @@ body {
 
         }
       }
-
-      &:nth-child(1) {
-        background-image: url(../../img/sea-and-starfish.jpg);
-        background-size: cover;
-      }
-      &:nth-child(2) {
-      }
-      &:nth-child(3) {
-          background-color: $lightGrey;
-      }
-      &:nth-child(4) {
-      }
-      &:nth-child(5) {
-          background-color: $lightGrey;
-      }
-      &:nth-child(6) {
-      }
-      &:nth-child(7) {
-          background-color: $lightGrey;
-      }
-      &:nth-child(8) {
-      }
-      &:nth-child(9) {
-          background-color: $lightGrey;
-      }
     }
-
   }
 }
 
@@ -103,7 +77,6 @@ body {
 article {
   #tip1-post-cover {
     @include post-cover-css;
-    background-image: url(../../img/sea-and-starfish.jpg);
   }
 
   #post-content {

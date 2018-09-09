@@ -2,57 +2,64 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class HomePage extends Component {
+
+  constructor(){
+    super();
+
+    this.state = {
+      tips: []
+    };
+
+  }
+
+  componentDidMount(){
+    this.getTips();
+  }
+
+  getTips(){
+    this.setState({
+      tips: [{
+          name: "Ditch single-use plastic",
+          image: 'img/sea-and-starfish.jpg'
+        },
+        {
+          name: "Bring your own reusables"
+        },
+        {
+          name: "Buy without plastic packaging"
+        },
+        {
+          name: "Buy in bulk"
+        },
+        {
+          name: "Say no to plastic and styrofoam when offered"
+        },
+        {
+          name: "Volunteer"
+        },
+        {
+          name: "Sort your rubbish and recycle at nearest recycling centre"
+        },
+        {
+          name: "Write to your supermarket CEOs"
+        },
+        {
+          name: "Spread the message!"
+        }
+      ]
+    });
+  }
+
   render() {
     return (
       <div className="tips-list">
-        <div>
-            <h2>1</h2>
-            <p>Ditch single-use plastic</p>
-            <button type="button" class="btn btn-outline-dark">
-              <Link to="/tip1">Read more</Link>
-            </button>
-        </div>
-        <div>
-            <h2>2</h2>
-            <p>Bring your own reusables</p>
-            <button type="button" class="btn btn-outline-primary" href="#">Read more</button>
-        </div>
-        <div>
-            <h2>3</h2>
-            <p>Buy without plastic packaging</p>
-            <button type="button" class="btn btn-outline-dark" href="#">Read more</button>
-        </div>
-        <div>
-            <h2>4</h2>
-            <p>Buy in bulk</p>
-            <button type="button" class="btn btn-outline-dark" href="#">Read more</button>
-        </div>
-        <div>
-            <h2>5</h2>
-            <p>Say no to plastic and styrofoam when offered</p>
-            <button type="button" class="btn btn-outline-dark" href="#">Read more</button>
-        </div>
-        <div>
-            <h2>6</h2>
-            <p>Volunteer</p>
-            <button type="button" class="btn btn-outline-dark" href="#">Read more</button>
-        </div>
-        <div>
-            <h2>7</h2>
-            <p>Sort your rubbish and recycle at nearest recycling centre</p>
-            <button type="button" class="btn btn-outline-dark" href="#">Read more</button>
-        </div>
-        <div>
-            <h2>8</h2>
-            <p>Write to your supermarket CEOs</p>
-            <button type="button" class="btn btn-outline-dark" href="#">Read more</button>
-        </div>
-        <div>
-            <h2>9</h2>
-            <p>Spread the message!<br/>(every little helps)</p>
-            <button type="button" class="btn btn-outline-dark" href="#">Read more</button>
-        </div>
-
+        {
+          this.state.tips.map((tip, index) =>
+            <div key={index++} style={ { backgroundImage: "url(" + tip.image + ")" } }>
+              <h2>{index}</h2>
+              <p>{tip.name}</p>
+            </div>)
+        }
       </div>
     );
   }

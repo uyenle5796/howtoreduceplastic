@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../img/logo.png';
 
 class Header extends Component {
 
@@ -10,7 +9,7 @@ class Header extends Component {
         <div className="site-name">
           <li>
             <Link to="/">
-              <img src={logo} alt={"logo"} />
+              <img src='img/logo.png' alt={"logo"} />
             </Link>
           </li>
         </div>
