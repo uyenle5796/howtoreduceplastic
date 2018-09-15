@@ -5,7 +5,7 @@ class Tip extends Component {
   render() {
     return (
       <div className="tip">
-            <div key={this.props.obj.id} style={ { backgroundImage: "url(" + this.props.obj.image + ")" } }>
+            <div style={ { backgroundImage: "url(" + this.props.obj.image + ")" } }>
               <h2>{(this.props.obj.id)}</h2>
               <p>{this.props.obj.name}</p>
             </div>

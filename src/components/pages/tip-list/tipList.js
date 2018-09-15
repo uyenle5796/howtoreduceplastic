@@ -20,48 +20,63 @@ class TipList extends Component {
     this.setState({
       tips: [{
           id: 1,
-          name: "Ditch single-use plastic",
-          image: 'img/sea-and-starfish.jpg'
+          name: "Say No to Single-Use Plastic",
+          image: 'img/tip1_square.svg'
         },
         {
           id: 2,
-          name: "Bring your own reusables",
-          image: ''
+          name: "Bring Your Own Reusables",
+          image: 'img/tip2_square.svg'
         },
         {
           id: 3,
-          name: "Buy without plastic packaging",
-          image: ''
+          name: "Buy Without Plastic Packaging",
+          image: 'img/tip3_square.svg'
         },
         {
           id: 4,
-          name: "Buy in bulk",
-          image: ''
+          name: "Buy in Bulk",
+          image: 'img/tip4_square.svg'
         },
         {
           id: 5,
-          name: "Say no to plastic and styrofoam when offered",
-          image: ''
+          name: "Choose Eco-friendly Alternatives",
+          image: 'img/tip5_square.svg'
         },
         {
           id: 6,
           name: "Volunteer",
-          image: ''
+          image: 'img/tip6_square.svg'
         },
         {
           id: 7,
-          name: "Sort your rubbish and recycle at nearest recycling centre",
-          image: ''
+          name: "Sort Your Rubbish and Recycle at Nearest Recycling Centre",
+          image: 'img/tip7_square.svg'
         },
         {
           id: 8,
-          name: "Write to your supermarket CEOs",
-          image: ''
+          name: "Write to Businesses",
+          image: 'img/tip8_square.svg'
         },
         {
           id: 9,
-          name: "Spread the message!",
-          image: ''
+          name: "Sign Petitions",
+          image: 'img/tip9_square.svg'
+        },
+        {
+          id: 10,
+          name: "Educate Yourself",
+          image: 'img/tip10_square.svg'
+        },
+        {
+          id: 11,
+          name: "Stay Informed",
+          image: 'img/tip11_square.svg'
+        },
+        {
+          id: 12,
+          name: "Spread the Message!",
+          image: 'img/tip12_square.svg'
         }
       ]
     });

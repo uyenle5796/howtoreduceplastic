@@ -9,7 +9,7 @@ class Header extends Component {
         <div className="site-name">
           <li>
             <Link to="/">
-              <img src='img/logo.png' alt={"logo"} />
+              <img src='img/logo.svg' style={{width: 100}} alt={"logo"} />
             </Link>
           </li>
         </div>

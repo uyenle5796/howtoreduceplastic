@@ -2,7 +2,9 @@
   "name": "build-website-react",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "https://uyenle57.github.io/howtoreduceplastic/",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "gulp-changed": "^3.2.0",
     "gulp-csso": "^3.0.1",
     "gulp-rename": "^1.4.0",
@@ -17,6 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
