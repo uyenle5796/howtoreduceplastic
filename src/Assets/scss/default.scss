@@ -54,6 +54,7 @@ body {
       overflow: hidden;
 
       &:hover {
+        border: 4px solid $white;
         cursor: pointer;
       }
 
@@ -74,6 +75,12 @@ body {
         word-wrap: break-word;
         padding: 10px 15px;
       }
+    }
+  }
+
+  .tip {
+    li {
+      list-style: none;
     }
   }
 }
