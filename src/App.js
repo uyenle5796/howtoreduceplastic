@@ -7,7 +7,7 @@ import Footer from './components/footerComponent/footer';
 import HomePage from './components/pages/homePage';
 import About from './components/pages/about';
 import Contact from './components/pages/contact';
-import Tip1 from './components/blogComponent/tip1';
+import Tip1 from './components/blogComponent/blogContent/tip1';
 
 //Includes
 import './Assets/css/default.min.css';
@@ -23,7 +23,7 @@ class App extends Component {
           <Route exact path='/about' component={About} />
           <Route exact path='/contact' component={Contact} />
 
-          <Route exact path='/tip1' component={Tip1} />
+          <Route path='/tip1' component={Tip1} />
 
           <Footer />
         </div>

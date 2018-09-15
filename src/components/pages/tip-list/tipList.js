@@ -9,7 +9,6 @@ class TipList extends Component {
     this.state = {
       tips: []
     };
-
   }
 
   componentDidMount(){

@@ -12,7 +12,7 @@ class Tip extends Component {
             <h2>{(this.props.obj.id)}</h2>
             <p>{this.props.obj.name}</p>
           </div>
-          
+
         </Link>
       </div>
     );
