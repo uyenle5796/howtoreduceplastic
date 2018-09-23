@@ -3,10 +3,9 @@ import React, { Component } from 'react';
 class Contact extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div className="pages">
 
-        <h1>Contact</h1>
-        <p>stuff here...</p>
+        <h1>Coming Soon</h1>
 
       </div>
     );

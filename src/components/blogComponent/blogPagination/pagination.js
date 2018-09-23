@@ -7,7 +7,8 @@ class Pagination extends Component {
     return (
       <div className="blog-pagination">
         <li>
-          <Link to="/tip2">See tip {this.props.id}: {this.props.title}</Link>
+          <Link to={this.props.linkTo}>See tip {this.props.id}: {this.props.title}
+          </Link>
         </li>
       </div>
     );

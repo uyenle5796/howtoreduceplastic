@@ -90,37 +90,72 @@ body {
     font-size: 50px;
     font-weight: bold;
     color: $white;
-    padding-top: 110px;
+    padding-top: 10vh;
   }
 
-  h1 {
+  h2 {
     color: $white;
     font-weight: bold;
   }
 }
 
-article {
-  margin: 100px 100px 50px 100px;
-  text-align: justify;
-  line-height: 28px;
+.post-content {
+  width: 80%;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  word-wrap: break-word;
+
+  position: relative;
+  top: 4em;
+  left: 10%;
+  margin-bottom: 7em;
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
 }
 
+/** PAGES: ABOUT and CONTACT **/
+.pages {
+  text-align: center;
+  margin-bottom: 7em;
+
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $lightGrey;
+  }
+}
+
+/** PAGINATION **/
 .blog-pagination {
+  height: 4em;
+  position: relative;
+  text-align: center;
+
   li {
     font-size: 18px;
     font-weight: lighter;
-    text-align: center;
+    display: inline-block;
+    margin-top: 25px;
+
     a {
       color: $lightGrey;
 
       &:hover {
-        text-decoration: underline;
         color: $oceanBlue;
       }
     }
   }
 }
 
+/** FOOTER **/
 footer {
   position: relative;
   width: 100%;
@@ -131,7 +166,7 @@ footer {
 
   nav ul li {
       display: inline-block;
-      margin-top: 30px;
+      margin-top: 40px;
       margin-left: auto;
       margin-right: auto;
       padding-right: 40px;
