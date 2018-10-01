@@ -24,7 +24,11 @@ class Tip1 extends Component {
         <BlogCover id={this.state.id} title={this.state.title} coverImage={this.state.image}/>
 
         <div className="post-content">
-            <p>Something here</p>
+            <p>Subscribe to websites for latest news on plastic!</p>
+            <ul>
+              <li>National Geographic</li>
+              <li>BBC News</li>
+            </ul>
         </div>
 
         <Pagination linkTo={this.state.linkTo} id={this.state.nextTipid} title={this.state.nextTipTitle}/>

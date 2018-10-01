@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
 
 /* COLOURS */
@@ -8,8 +8,6 @@ $lightGrey: #d0cfcf;
 $darkGrey: #4f4f4f;
 $red: #ff1755;
 $oceanBlue: #17abff;
-
-$global-font-size: 16px;
 
 @mixin translateY($e) {
   -webkit-transform: translateY($e);
@@ -24,8 +22,8 @@ $global-font-size: 16px;
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
-  font-size: $global-font-size;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   color: $black;
   font-weight: 400;
   font-style: normal;

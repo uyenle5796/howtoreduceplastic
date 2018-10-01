@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import BlogCover from '../blogCover/cover.js';
-import Pagination from '../blogPagination/pagination.js';
 
 class Tip1 extends Component {
 
