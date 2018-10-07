@@ -6,18 +6,20 @@ class About extends Component {
       <div className="pages">
         <div className="post-content">
 
-        <b>How To Reduce Plastic</b> was created by <a href="https://uyen-le.me">Uyen Le</a> with the hope to help fight todays <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/">global plastic pollution problems</a>.
-        The site contains actions, tips and resouces that she found have helped to reduce her personal plastic consumption dramatically.
-        <br/><br/>
-        Through lively and colourful illustrations, she hopes to spread the message that reducing plastic can be super fun and easy, and
-        therefore inspire others to <b>join the fight against plastic and together save the environment!</b> <span role="img" aria-label="Green Leaf">🌿</span><span role="img" aria-label="Whale">🐋</span>
+        <b>How To Reduce Plastic</b> was created with the hope to help fight the ever-increasing <b><a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/">global plastic pollution problems.</a></b>
         <br/>
         <br/>
+        The site contains top tips, actions and resources on many ways
+        that anyone can do to increase their own awareness of plastic pollution and hence reduce their personal plastic consumption.
+
+        We hope to spread the message that reducing plastic consumption can be very fun and easy, and
+        that together we can make a change to save the environment, one step at a time. <span role="img" aria-label="Globe">🌏</span>
+        <span role="img" aria-label="Tree">🌳</span>
+        <span role="img" aria-label="Whale">🐋</span>
         <br/>
-        <img id="heart-ribbon" src="img/heart_ribbon.png" alt="Heart ribbon"/>
         <br/>
-        <br/>
-        If you have any feedback, suggestions or simply say hello <span role="img" aria-label="Wave">👋🏻</span>, feel free to contact me at <a href="mailto:hellouyenle@gmail.com">hellouyenle@gmail.com</a>. I would love to hear from you!
+        <span role="img" aria-label="Email">📩</span>
+        Please <b><a href="mailto:hellouyenle@gmail.com">drop me an email</a></b> if you have any feedback, suggestions about the site, or simply want to have a chat. I'd love to hear from you! <span role="img" aria-label="Smiley Face">😊</span>
         </div>
 
     </div>
