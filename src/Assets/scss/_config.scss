@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
 
 /* COLOURS */
-$black: #010000;
+$black: #0C1B33;
 $white: #ffffff;
 $lightGrey: #d0cfcf;
 $darkGrey: #4f4f4f;
 $red: #ff1755;
-$oceanBlue: #17abff;
+$orange: #E94F37;
+$pink: #EF6F6C;
+$oceanBlue: #3F88C5;
 
 @mixin translateY($e) {
   -webkit-transform: translateY($e);
@@ -30,8 +32,8 @@ body {
 }
 
 li {
-  list-style: none;
   text-decoration: none;
+  list-style: none;
 }
 
 a {
@@ -40,7 +42,7 @@ a {
   cursor: pointer;
 
   &:hover {
-    color: $oceanBlue;
+    color: $orange;
     text-decoration: none;
     @include transition(.4s ease-in-out);
   }
