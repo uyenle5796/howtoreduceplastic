@@ -1,8 +1,6 @@
 # How to Reduce Plastic
 [http://howtoreduceplastic.herokuapp.com](http://howtoreduceplastic.herokuapp.com)
 
-[![Build Status](https://travis-ci.org/uyenle57/howtoreduceplastic.svg?branch=master)](https://travis-ci.org/uyenle57/howtoreduceplastic)
-
 ### About
 **How To Reduce Plastic** was created with the hope to help fight the ever-increasing [global plastic pollution problems](https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/).
 
