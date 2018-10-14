@@ -24,7 +24,7 @@ class Tip1 extends Component {
         <BlogCover id={this.state.id} title={this.state.title} coverImage={this.state.image}/>
 
         <div className="post-content">
-            <p>Google Maps API of all recycling centres in the world</p>
+            <p>Google Maps API of all recycling centres in UK</p>
         </div>
 
         <Pagination linkTo={this.state.linkTo} id={this.state.nextTipid} title={this.state.nextTipTitle}/>

@@ -101,12 +101,13 @@ class Tip1 extends Component {
 
             <div>
               <br/>
-              <img src="img/tip5_illustrations/tip5_tissues.svg" alt="Others" width="80" />
+              <img src="img/tip5_illustrations/tip5_tissues.svg" alt="Others" width="100" />
             </div>
             <div>
               <br/>
               <b>Other Alternatives:</b>
               <ul>
+                <li>Use soap over hand-wash bottles</li>
                 <li>Biodegradable bin bags (available on <a href="https://www.amazon.co.uk/s/ref=nb_sb_ss_i_3_5?url=search-alias%3Dkitchen&field-keywords=biodegradable+bin+bags&sprefix=biode%2Ckitchen%2C152&crid=2FAMZME2COHMH">Amazon</a>)</li>
                 <li>Recycled paper tissues (available on <a href="https://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=recycled+toilet+tissue&rh=i%3Aaps%2Ck%3Arecycled+toilet+tissue">Amazon</a>)</li>
               </ul>
