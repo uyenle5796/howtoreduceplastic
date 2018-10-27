@@ -8,7 +8,7 @@ class Tip extends Component {
       <div className="tip">
         <Link to={this.props.obj.linkTo}>
 
-          <div style={ { backgroundImage: "url(" + this.props.obj.image + ")" } }>
+          <div style={{ backgroundImage: "url(" + this.props.obj.image + ")" }}>
             <h2>{(this.props.obj.id)}</h2>
             <p>{this.props.obj.name}</p>
           </div>

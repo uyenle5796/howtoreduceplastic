@@ -25,7 +25,7 @@ class Tip11 extends Component {
             <p>Subscribe to websites for latest news on plastic!</p>
             <ul>
               <li>National Geographic</li>
-              <li>BBC News</li>
+              <li><a href="https://www.bbc.co.uk/search?q=plastic#page=2">BBC News on Plastic</a></li>
             </ul>
         </div>
 
