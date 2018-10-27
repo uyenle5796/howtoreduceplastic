@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import BlogCover from '../blogCover/cover.js';
+import Navigation from '../blogNavigation/navigation.js';
 
-class Tip1 extends Component {
+class Tip12 extends Component {
 
   constructor() {
     super();
@@ -9,7 +10,8 @@ class Tip1 extends Component {
     this.state = {
       id : 12,
       title : "Spread the Message!",
-      image : 'img/tip12_cover.svg'
+      image : 'img/tip12_cover.svg',
+      linkToPrevTip : 'tip11'
     }
   }
 
@@ -22,9 +24,10 @@ class Tip1 extends Component {
             <p>Something here</p>
         </div>
 
+        <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip="" />
       </div>
     );
   }
 }
 
-export default Tip1;
+export default Tip12;

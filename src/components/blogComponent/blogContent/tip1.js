@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import BlogCover from '../blogCover/cover.js';
-import Pagination from '../blogPagination/pagination.js';
+import Navigation from '../blogNavigation/navigation.js';
 
 class Tip1 extends Component {
 
@@ -11,10 +11,7 @@ class Tip1 extends Component {
       id : 1,
       title : "Say No to Single-Use Plastic",
       image : 'img/tip1_cover.svg',
-
-      linkTo : '/tip2',
-      nextTipid : 2,
-      nextTipTitle : "Bring Your Own Reusables"
+      linkToNextTip : 'tip2'
     };
   }
 
@@ -26,7 +23,7 @@ class Tip1 extends Component {
         <div className="post-content">
         </div>
 
-        <Pagination linkTo={this.state.linkTo} id={this.state.nextTipid} title={this.state.nextTipTitle}/>
+        <Navigation linkToPrevTip="" linkToNextTip={this.state.linkToNextTip}/>
       </div>
     );
   }

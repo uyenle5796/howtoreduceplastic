@@ -148,8 +148,8 @@ body {
   }
 }
 
-/** PAGINATION **/
-.blog-pagination {
+/** NAVIGATION **/
+.blog-navigation {
   height: 4em;
   position: relative;
   text-align: center;
@@ -158,8 +158,10 @@ body {
     font-size: 18px;
     font-weight: lighter;
     display: inline-block;
+    padding-right: 40px;
     margin-top: 25px;
     margin-bottom: 25px;
+
 
     a {
       color: $lightGrey;

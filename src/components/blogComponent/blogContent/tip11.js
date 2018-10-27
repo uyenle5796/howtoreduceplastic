@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import BlogCover from '../blogCover/cover.js';
-import Pagination from '../blogPagination/pagination.js';
+import Navigation from '../blogNavigation/navigation.js';
 
-class Tip1 extends Component {
+class Tip11 extends Component {
 
   constructor() {
     super();
@@ -11,10 +11,8 @@ class Tip1 extends Component {
       id : 11,
       title : "Stay Informed",
       image : 'img/tip11_cover.svg',
-
-      linkTo: 'tip12',
-      nextTipid : 12,
-      nextTipTitle : "Spread the Message!"
+      linkToPrevTip : 'tip10',
+      linkToNextTip : 'tip12'
     }
   }
 
@@ -31,10 +29,10 @@ class Tip1 extends Component {
             </ul>
         </div>
 
-        <Pagination linkTo={this.state.linkTo} id={this.state.nextTipid} title={this.state.nextTipTitle}/>
+        <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>
       </div>
     );
   }
 }
 
-export default Tip1;
+export default Tip11;

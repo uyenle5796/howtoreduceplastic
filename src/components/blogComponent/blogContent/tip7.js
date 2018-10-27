@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import BlogCover from '../blogCover/cover.js';
-import Pagination from '../blogPagination/pagination.js';
+import Navigation from '../blogNavigation/navigation.js';
 
-class Tip1 extends Component {
+class Tip7 extends Component {
 
   constructor() {
     super();
@@ -11,10 +11,8 @@ class Tip1 extends Component {
       id : 7,
       title : "Sort Your Rubbish and Recycle at Nearest Recycling Centre",
       image : 'img/tip7_cover.svg',
-
-      linkTo: 'tip8',
-      nextTipid : 8,
-      nextTipTitle : "Write to Businesses"
+      linkToPrevTip : 'tip6',
+      linkToNextTip : 'tip8'
     }
   }
 
@@ -27,10 +25,10 @@ class Tip1 extends Component {
             <p>Google Maps API of all recycling centres in UK</p>
         </div>
 
-        <Pagination linkTo={this.state.linkTo} id={this.state.nextTipid} title={this.state.nextTipTitle}/>
+        <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>
       </div>
     );
   }
 }
 
-export default Tip1;
+export default Tip7;
