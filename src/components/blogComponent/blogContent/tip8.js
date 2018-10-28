@@ -20,9 +20,11 @@ class Tip8 extends Component {
     return (
       <div>
         <BlogCover id={this.state.id} title={this.state.title} coverImage={this.state.image}/>
-        
+
         <div className="post-content">
             <a href="https://act.greenpeace.org/page/29634/action/1">Greenpeace: Tell your supermarket CEOs to ditch plastic</a>
+
+            <img id="tip8-illustration" src="img/tip8_illustrations/tip8_illustrations.svg" alt="drawing"/>
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>

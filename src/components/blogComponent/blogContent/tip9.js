@@ -111,6 +111,8 @@ class Tip9 extends Component {
               })
             }
           </div>
+
+          <img id="tip9-illustration" src="img/tip9_illustrations/tip9_illustrations.svg" alt="drawing"/>
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>
