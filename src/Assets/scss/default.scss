@@ -112,16 +112,29 @@ body {
   left: 10%;
   margin-bottom: 7em;
 
-  #post-content-note {
-    font-style: italic;
-    color: $lightGrey;
-    text-align: center;
-  }
-
   .tip5-product-list {
     display: grid;
     grid-template-columns: 1fr 3fr;
     img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  //resize this image cause it's too big
+  #tip6-title1-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .tip9-petitions-list {
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+
+    img {
+      width: 40%;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -134,7 +147,6 @@ body {
 
     img {
       width: 80%;
-
       //enlarge on hover
       &:hover {
         transition: transform .2s;
@@ -171,7 +183,7 @@ body {
 
 /** NAVIGATION **/
 .blog-navigation {
-  height: 4em;
+  height: 100px;
   position: relative;
   text-align: center;
 

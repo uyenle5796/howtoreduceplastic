@@ -23,9 +23,9 @@ class Tip6 extends Component {
 
         <div className="post-content">
           <div>
-            <img src="img/tip6_illustrations/tip6_title1.svg" alt="Join / Organise a Beach Clean"/><br/><br/>
+            <img id="tip6-title1-image" src="img/tip6_illustrations/tip6_title1.svg" alt="Join a Beach Clean"/>
             Beach cleaning is one of the best ways to protect the ocean and marine life from plastic waste and pollution.
-            Using the tools provided, you just need to pick up any waste you see when walking along the beach. Not only so, you will meet some new friends as well!
+            Using the tools provided, you just need to pick up any waste you see when walking along the beach. Not only so, you will make new friends as well!
             See below are organisations who organise beach cleans around the UK, simply sign up and start cleaning!
 
             <br/><br/>
@@ -35,7 +35,7 @@ class Tip6 extends Component {
 
           <div>
             <br/><br/>
-            <img src="img/tip6_illustrations/tip6_title2.svg" alt="Participate in Litter Picking"/><br/><br/>
+            <img src="img/tip6_illustrations/tip6_title2.svg" alt="Participate in Litter Picking"/><br/>
             Can not make it to any nearby beaches? Good news, you can also participate litter picking at your local areas, communities, villages! Having a clean, tidy neighborhood also makes a great difference!
             <br/><br/>
             <a href="http://www.keepbritaintidy.org/get-involved/support-our-campaigns/great-british-spring-clean">Keep Britain Tidy Spring Clean</a> (for all  volunteering opportunities from Keep Britain Tidy see <a href="http://www.keepbritaintidy.org/become-care-project-volunteer">here</a>)
@@ -43,7 +43,7 @@ class Tip6 extends Component {
 
           <div>
             <br/><br/>
-            <img src="img/tip6_illustrations/tip6_title3.svg" alt="Green Spaces Cleaning at Your Local Community"/><br/><br/>
+            <img src="img/tip6_illustrations/tip6_title3.svg" alt="Green Spaces Cleaning at Your Local Community"/><br/>
             Similarly to litter picking, The Conservation Volunteers Green Gym offers volunteering opportunities where you can get active by doing conservation works in your local communities to provide green spaces for everyone. It is also a great way to stay fit while having fun!
             <br/><br/>
             <a href="https://www.tcv.org.uk/volunteering">TCV Green Gym</a>

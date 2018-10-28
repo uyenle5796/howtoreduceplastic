@@ -46,7 +46,6 @@ a {
     text-decoration: none;
     @include transition(.4s ease-in-out);
   }
-
   &:active {
     text-decoration: none;
     color: $oceanBlue;

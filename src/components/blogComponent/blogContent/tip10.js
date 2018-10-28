@@ -57,7 +57,7 @@ class Tip10 extends Component {
           author: "Isabel Thomas, Alex Paterson",
           image: 'img/bookCovers/this_book_is_not_rubbish.jpg',
           linkTo: 'https://www.goodreads.com/book/show/41959345-this-book-is-not-rubbish'
-        },
+        }
       ]
     });
   }
