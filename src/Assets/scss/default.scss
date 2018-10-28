@@ -115,6 +115,7 @@ body {
   .tip5-product-list {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    margin-left: 20%;
     img {
       display: block;
       margin-left: auto;
@@ -130,15 +131,7 @@ body {
   }
 
   .tip9-petitions-list {
-    display: grid;
-    grid-template-columns: repeat(1, 4fr);
-
-    img {
-      width: 40%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+    //something later
   }
 
   .tip10-books-list {

@@ -12,8 +12,136 @@ class Tip5 extends Component {
       title : "Choose Eco-friendly Alternatives",
       image : 'img/tip5_cover.svg',
       linkToPrevTip : 'tip4',
-      linkToNextTip : 'tip6'
+      linkToNextTip : 'tip6',
+      productsList: []
     }
+  }
+  componentDidMount() {
+    this.getProductsList();
+  }
+
+  getProductsList() {
+    this.setState({
+      productsList: [
+        {
+          id: 1,
+          name: "Cleaning Products",
+          image: 'img/tip5_illustrations/tip5_cleaningproduct.svg',
+          imageWidth: 80,
+          brands: [
+            {
+              id: 1,
+              name: "Ecover",
+              linkTo: 'https://www.ecover.com/household/'
+            }
+          ]
+        },
+        {
+          id: 2,
+          name: "Food Wraps",
+          image: 'img/tip5_illustrations/tip5_foodwrap.svg',
+          imageWidth: 100,
+          brands: [
+            {
+              id: 1,
+              name: "Bees Wrap",
+              linkTo: 'https://www.beeswrap.com'
+            },
+            {
+              id: 2,
+              name: "The Beeswax Wrap Co.",
+              linkTo: 'https://www.beeswaxwraps.co.uk'
+            }
+          ]
+        },
+        {
+          id: 3,
+          name: "Bamboo Toothbrush",
+          image: 'img/tip5_illustrations/tip5_toothbrush.svg',
+          imageWidth: 70,
+          brands: [
+            {
+              id: 1,
+              name: "Humble Brush",
+              linkTo: 'https://thehumble.co'
+            },
+            {
+              id: 2,
+              name: "Brushbox",
+              linkTo: 'https://www.brushbox.com'
+            }
+          ]
+        },
+        {
+          id: 4,
+          name: "Drinking Bottles / Cups",
+          image: 'img/tip5_illustrations/tip5_cup.svg',
+          imageWidth: 100,
+          brands: [
+            {
+              id: 1,
+              name: "KeepCup",
+              linkTo: 'https://keepcup.com'
+            },
+            {
+              id: 2,
+              name: "Stojo",
+              linkTo: 'https://stojo.co'
+            },
+            {
+              id: 3,
+              name: "rCup",
+              linkTo: 'https://www.rcup.co.uk'
+            }
+          ]
+        },
+        {
+          id: 5,
+          name: "Straws and Cutlery",
+          image: 'img/tip5_illustrations/tip5_cutlery.svg',
+          imageWidth: 100,
+          brands: [
+            {
+              id: 1,
+              name: "Paper straws on Amazon",
+              linkTo: 'https://www.amazon.co.uk/s/ref=nb_sb_noss_1?url=search-alias%3Dkitchen&field-keywords=paper+straws'
+            },
+            {
+              id: 2,
+              name: "Net Zero Straw",
+              linkTo: 'https://netzerostraw.com'
+            },
+            {
+              id: 3,
+              name: "Cutlery set by Joseph Joseph",
+              linkTo: 'https://www.josephjoseph.com/en-gb/goeat-cutlery-set'
+            }
+          ]
+        },
+        {
+          id: 6,
+          name: "Other Alternatives",
+          image: 'img/tip5_illustrations/tip5_tissues.svg',
+          imageWidth: 100,
+          brands: [
+            {
+              id: 1,
+              name: "Use soap over hand-wash bottles"
+            },
+            {
+              id: 2,
+              name: "Biodegradable bin bags",
+              linkTo: 'https://www.amazon.co.uk/s/ref=nb_sb_ss_i_3_5?url=search-alias%3Dkitchen&field-keywords=biodegradable+bin+bags&sprefix=biode%2Ckitchen%2C152&crid=2FAMZME2COHMH'
+            },
+            {
+              id: 3,
+              name: "Recycled paper tissues",
+              linkTo: 'https://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=recycled+toilet+tissue&rh=i%3Aaps%2Ck%3Arecycled+toilet+tissue'
+            }
+          ]
+        }
+      ]
+    });
   }
 
   render() {
@@ -32,86 +160,27 @@ class Tip5 extends Component {
           (Bonus: all of them offer discounts and worldwide shipping!)
           <br/><br/>
 
-          <div className="tip5-product-list">
-            <div>
-              <img src="img/tip5_illustrations/tip5_cleaningproduct.svg" alt="Cleaning Product" width="80" />
-            </div>
-            <div>
-            <b>Cleaning Products:</b>
-              <ul>
-                <li><a href="https://www.ecover.com/household/">Ecover</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <br/>
-              <img src="img/tip5_illustrations/tip5_foodwrap.svg" alt="Food Wrap" width="100" />
-            </div>
-            <div>
-              <b>Food Wraps:</b>
-              <ul>
-                <li><a href="https://www.beeswrap.com">Bees Wrap</a></li>
-                <li><a href="https://www.beeswaxwraps.co.uk">The Beeswax Wrap Co.</a></li>
-                <li>or just use aluminium foil or baking paper!</li>
-              </ul>
-            </div>
-
-            <div>
-              <br/>
-              <img src="img/tip5_illustrations/tip5_toothbrush.svg" alt="Toothbrush" width="70" />
-            </div>
-            <div>
-              <br/>
-              <b>Bamboo Toothbrush:</b>
-              <ul>
-                <li><a href="https://thehumble.co">Humble Brush</a> (also has natural toothpaste, floss, cotton swabs, etc)</li>
-                <li><a href="https://www.brushbox.com">Brushbox</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <br/>
-              <img src="img/tip5_illustrations/tip5_cup.svg" alt="Cup" width="100" />
-            </div>
-            <div>
-              <br/>
-              <b>Drinking Bottles / Cups:</b>
-              <ul>
-                <li><a href="https://www.ecover.com/household/">KeepCup</a></li>
-                <li><a href="https://stojo.co">Stojo</a></li>
-                <li><a href="https://www.rcup.co.uk">rCup</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <br/>
-              <img src="img/tip5_illustrations/tip5_cutlery.svg" alt="Cutlery" width="100" />
-            </div>
-            <div>
-              <br/>
-              <b>Straws and Cutlery:</b>
-              <ul>
-                <li><a href="https://www.amazon.co.uk/s/ref=nb_sb_noss_1?url=search-alias%3Dkitchen&field-keywords=paper+straws">Paper straws on Amazon</a></li>
-                <li><a href="https://netzerostraw.com">Net Zero Straw</a></li>
-                <li><a href="https://www.josephjoseph.com/en-gb/goeat-cutlery-set">Cutlery set by Joseph Joseph</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <br/>
-              <img src="img/tip5_illustrations/tip5_tissues.svg" alt="Others" width="100" />
-            </div>
-            <div>
-              <br/>
-              <b>Other Alternatives:</b>
-              <ul>
-                <li>Use soap over hand-wash bottles</li>
-                <li>Biodegradable bin bags (available on <a href="https://www.amazon.co.uk/s/ref=nb_sb_ss_i_3_5?url=search-alias%3Dkitchen&field-keywords=biodegradable+bin+bags&sprefix=biode%2Ckitchen%2C152&crid=2FAMZME2COHMH">Amazon</a>)</li>
-                <li>Recycled paper tissues (available on <a href="https://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=recycled+toilet+tissue&rh=i%3Aaps%2Ck%3Arecycled+toilet+tissue">Amazon</a>)</li>
-              </ul>
-            </div>
-
-          </div>
+            { this.state.productsList.map(product => {
+                var brands = product.brands.map(brand => {
+                  return (
+                    <ul key={brand.id}>
+                      <li><a href={brand.linkTo}>{brand.name}</a></li>
+                    </ul>
+                  )
+                });
+                return (
+                  <div className="tip5-product-list">
+                    <div key={product.id}>
+                      <img src={product.image} alt={product.name} width={product.imageWidth}/>
+                    </div>
+                    <div key={product.id}>
+                      <b>{product.name}:</b>
+                      {brands}
+                    </div>
+                  </div>
+                )
+              })
+            }
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>
