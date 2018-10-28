@@ -68,34 +68,37 @@ class Tip10 extends Component {
         <BlogCover id={this.state.id} title={this.state.title} coverImage={this.state.image}/>
 
         <div className="post-content">
-          Below are great resources that I have found incredibly useful in understanding about plastic. They go in great details about different types of plastics, their
-          effects on the environment and suggest ways that we can do to reduce plastic consumption:
-
-          Books:
-          <div className="books-list">
+          Below are great resources that I have found incredibly useful in understanding about plastic. They go in great details about different types of plastics and what types can or cannot be recycled.
+          They also describe the effects of plastic on the environment and suggest ways that we can do to reduce plastic consumption:
+          <br/><br/>
+          <b>Books:</b>
+          <br/><br/>
+          <div className="tip10-books-list">
             { this.state.booksList.map(book => {
                 return (
-                  <li key={book.id}>
-                    <img src={book.image} alt="Book cover" width="110" />
-                    <b>{book.title}</b> by {book.author}
-                  </li>
+                  <ul key={book.id}>
+                    <figure>
+                      <a href={book.linkTo}><img src={book.image} alt="Book cover"/></a>
+                      <figcaption><b>{book.title}</b> by {book.author}</figcaption>
+                    </figure>
+                  </ul>
                 )
               })
             }
           </div>
           <br/>
 
-          Documentaries:
+          <b>Videos / Documentaries:</b>
           <ul>
-            Blue Planet 2
+            <li><a href="https://www.bbc.co.uk/programmes/p04tjbtx">Blue Planet 2</a></li>
+            <li><a href="https://www.bbc.co.uk/programmes/p06bjyxs">BBC Plastic Shorts</a></li>
           </ul>
           <br/>
 
-          Articles:
+          <b>Articles:</b>
           <ul>
             <li><a href="http://www.bbc.co.uk/programmes/articles/11CnCQR0GJfkDgJs57sR5Ps/plastics-action">BBC Plastics Watch</a></li>
-            <li><a href="https://www.bbc.co.uk/programmes/p06bm360">How Does Plastic Will Wildlife? by BBC</a></li>
-            <li><a href="http://www.bbc.co.uk/programmes/articles/11CnCQR0GJfkDgJs57sR5Ps/plastics-action">National Geographic</a></li>
+            <li><a href="https://www.nationalgeographic.com/environment/planetorplastic/">National Geographic: Planet or Plastic?</a></li>
             <br/>
           </ul>
         </div>
