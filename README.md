@@ -1,4 +1,6 @@
 # How to Reduce Plastic
+*Your 101 guide on cutting down plastic waste*
+
 [http://howtoreduceplastic.herokuapp.com](http://howtoreduceplastic.herokuapp.com)
 
 ### About
