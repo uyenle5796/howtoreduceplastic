@@ -28,7 +28,7 @@ class Tip11 extends Component {
             <li><a href="https://www.nationalgeographic.com/environment/planetorplastic/">National Geographic: Planet or Plastic?</a></li>
             <li><a href="https://www.bbc.co.uk/search?q=plastic&filter=news&suggid=">BBC News on Plastic</a></li>
             <li><a href="https://www.weforum.org/system-initiatives/shaping-the-future-of-environment-and-natural-resource-security/articles">World Economic Forum</a></li>
-            <li><a href="https://www.drudgereportarchives.com/dsp/search.htm?searchFor=plastic">The Drudge Report</a> which has collection of latest news on plastic from all over the internet!</li>
+            <li><a href="https://www.drudgereportarchives.com/dsp/search.htm?searchFor=plastic">The Drudge Report</a> has collection of latest news on plastic from all over the internet!</li>
             <li>Finally, your smartphone is another a great source of information. Simply search for "Plastic pollution" on your phone's news reading app. The world really is your oyster!</li>
           </ul>
         </div>
