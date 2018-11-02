@@ -85,7 +85,7 @@ class TipList extends Component {
         },
         {
           id: 12,
-          name: "Spread the Message!",
+          name: "Donate to Charities",
           image: 'img/tip12_square.svg',
           linkTo: '/tip12'
         }

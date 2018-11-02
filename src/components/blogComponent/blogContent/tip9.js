@@ -72,6 +72,17 @@ class Tip9 extends Component {
               linkTo: 'https://www.change.org/search?q=plastic&offset=10'
             }
           ]
+        },
+        {
+          id: 5,
+          siteName: "Plastic Pollution Coalition",
+          petitions: [
+            {
+              id: 2,
+              name: "The Last Plastic Straw",
+              linkTo: "https://www.plasticpollutioncoalition.org/no-straw-please"
+            }
+          ]
         }
       ]
     });
