@@ -26,7 +26,7 @@ class Tip12 extends Component {
           as little as £1 is just as amazing!
 
           Below are some top charities that focus on tackling plastic waste and pollution and protect the ocean:
-          <ul>
+          <ul className="tip12-post-content">
             <li><a href="https://www.greenpeace.org.uk">Greenpeace</a></li>
             <li><a href="https://mcsuk.org">Marine Conservation Society</a></li>
             <li><a href="https://plasticoceans.org">Plastic Oceans Foundation</a></li>

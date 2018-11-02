@@ -6,7 +6,6 @@ class Navigation extends Component {
   render() {
     return (
       <div className="blog-navigation">
-        Share this:<div class="addthis_inline_share_toolbox"></div>
         { this.props.linkToPrevTip !== "" ?
           <li><Link to={this.props.linkToPrevTip}>Previous Tip</Link></li> : ""
         }
