@@ -26,6 +26,17 @@ class Tip9 extends Component {
       petitionsList: [
         {
           id: 1,
+          siteName: "WWF",
+          petitions: [
+            {
+              id: 1,
+              name: "Fight Against Plastic Pollution",
+              linkTo: 'https://www.wwf.org.uk/fight-plastic-pollution'
+            }
+          ]
+        },
+        {
+          id: 2,
           siteName: "Greenpeace",
           petitions: [
             {
@@ -41,7 +52,7 @@ class Tip9 extends Component {
           ]
         },
         {
-          id: 2,
+          id: 3,
           siteName: "Marine Conservation Society UK",
           petitions: [
             {
@@ -52,7 +63,7 @@ class Tip9 extends Component {
           ]
         },
         {
-          id: 3,
+          id: 4,
           siteName: "UK Parliament",
           petitions: [
             {
@@ -63,7 +74,7 @@ class Tip9 extends Component {
           ]
         },
         {
-          id: 4,
+          id: 5,
           siteName: "Change.org",
           petitions: [
             {
@@ -74,7 +85,7 @@ class Tip9 extends Component {
           ]
         },
         {
-          id: 5,
+          id: 6,
           siteName: "Plastic Pollution Coalition",
           petitions: [
             {
@@ -102,7 +113,7 @@ class Tip9 extends Component {
           A minute of your life and your signature can make a significant difference! Start signing some petitions calling to ban plastic below:
           <br/><br/>
 
-          <div className="tip9-petitions-list">
+          <div>
             { this.state.petitionsList.map(site => {
                 var petitions = site.petitions.map(petition => {
                   return (
@@ -115,7 +126,7 @@ class Tip9 extends Component {
                 });
                 return (
                   <div key={site.id}>
-                    <b>{site.siteName}:</b>
+                    <h4>{site.siteName}:</h4>
                       {petitions}
                   </div>
                 )
@@ -123,7 +134,7 @@ class Tip9 extends Component {
             }
           </div>
 
-          <img id="tip9-illustration" src="img/tip9_illustrations/tip9_illustrations.svg" alt="drawing"/>
+          <img id="tip9-illustration" src="img/tip9_illustrations/you_are_amazing.svg" alt="drawing"/>
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>

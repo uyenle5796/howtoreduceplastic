@@ -35,7 +35,7 @@ class Tip8 extends Component {
           <br/><br/>
           Giving direct feedback to busineses will create much greater impact and hence better encourage them to make a change!
 
-          <img id="tip8-illustration" src="img/tip8_illustrations/tip8_illustrations.svg" alt="drawing"/>
+          <img id="tip8-illustration" src="img/tip8_illustrations/flying_letter.svg" alt="drawing"/>
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>

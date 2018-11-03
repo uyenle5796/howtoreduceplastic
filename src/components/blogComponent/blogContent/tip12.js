@@ -24,9 +24,10 @@ class Tip12 extends Component {
           If there are any charities whose work focus on something you care about, making a small donation to those charities will
           show them a lot of trust & support and therefore motivate them to keep going. It doesn't have to be much, a one-off donation of
           as little as £1 is just as amazing!
-
+          <br/>
           Below are some top charities that focus on tackling plastic waste and pollution and protect the ocean:
-          <ul className="tip12-post-content">
+          <ul>
+            <li><a href="https://www.wwf.org.uk">WWF</a></li>
             <li><a href="https://www.greenpeace.org.uk">Greenpeace</a></li>
             <li><a href="https://mcsuk.org">Marine Conservation Society</a></li>
             <li><a href="https://plasticoceans.org">Plastic Oceans Foundation</a></li>
@@ -35,6 +36,8 @@ class Tip12 extends Component {
             <li><a href="https://www.5gyres.org">5Gyres</a></li>
             <li><a href="https://www.plasticpollutioncoalition.org">Plastic Pollution Coalition</a></li>
           </ul>
+          <br/>
+          <img id="tip12-illustration" src="img/tip12_illustrations/thankyou_turtle.svg" alt="drawing"/>
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip="" />

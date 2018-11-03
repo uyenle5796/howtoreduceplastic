@@ -71,8 +71,8 @@ class Tip10 extends Component {
           Below are great resources that I have found incredibly useful in understanding about plastic. They go in great details about different types of plastics and what types can or cannot be recycled.
           They also describe the effects of plastic on the environment and suggest ways that we can do to reduce plastic consumption:
           <br/><br/>
-          <b>Books:</b>
-          <br/><br/>
+          <h4>Books:</h4>
+          <br/>
           <div className="tip10-books-list">
             { this.state.booksList.map(book => {
                 return (
@@ -88,14 +88,14 @@ class Tip10 extends Component {
           </div>
           <br/>
 
-          <b>Videos / Documentaries:</b>
+          <h4>Videos / Documentaries:</h4>
           <ul>
             <li><a href="https://www.bbc.co.uk/programmes/p04tjbtx">Blue Planet 2</a></li>
             <li><a href="https://www.bbc.co.uk/programmes/p06bjyxs">BBC Plastic Shorts</a></li>
           </ul>
           <br/>
 
-          <b>Articles:</b>
+          <h4>Articles:</h4>
           <ul>
             <li><a href="http://www.bbc.co.uk/programmes/articles/11CnCQR0GJfkDgJs57sR5Ps/plastics-action">BBC Plastics Watch</a></li>
             <li><a href="https://www.nationalgeographic.com/environment/planetorplastic/">National Geographic: Planet or Plastic?</a></li>

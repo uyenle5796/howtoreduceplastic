@@ -112,6 +112,15 @@ body {
   left: 10%;
   margin-bottom: 7em;
 
+  h4 {
+    text-align: center;
+    font-weight: bold;
+  }
+  ul li {
+    text-align: center;
+  }
+
+  //TIPS
   .tip5-product-list {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -121,29 +130,6 @@ body {
       margin-left: auto;
       margin-right: auto;
     }
-  }
-  //resize this image cause it's too big
-  #tip6-title1-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-  }
-  #tip8-illustration {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .tip9-petitions-list {
-    text-align: center;
-  }
-  #tip9-illustration {
-    width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .tip10-books-list {
@@ -167,8 +153,39 @@ body {
     }
   }
 
-  .tip12-post-content {
-    text-align: center;
+  //resize images depending on their size
+  #tip6-title1-image {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #tip8-illustration {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tip9-illustration {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tip11-illustration {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #tip12-illustration {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
