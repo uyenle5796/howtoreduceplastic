@@ -125,6 +125,10 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr;
     margin-left: 20%;
+
+    ul li {
+      text-align: left;
+    }
     img {
       display: block;
       margin-left: auto;
@@ -153,39 +157,39 @@ body {
     }
   }
 
-  //resize images depending on their size
-  #tip6-title1-image {
+  //center and resize images depending on their size
+  .centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .tip3-illustration {
     width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
-  #tip8-illustration {
+
+  .tip4-illustration {
+    width: 70%;
+  }
+
+  .tip6-title1-image {
+    width: 70%;
+  }
+
+  .tip8-illustration {
     width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  #tip9-illustration {
+  .tip9-illustration {
     width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  #tip11-illustration {
+  .tip11-illustration {
     width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  #tip12-illustration {
+  .tip12-illustration {
     width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 

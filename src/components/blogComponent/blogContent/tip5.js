@@ -175,7 +175,7 @@ class Tip5 extends Component {
                     </div>
                     <div key={product.id}>
                       <b>{product.name}:</b>
-                      {brands}
+                        {brands}
                     </div>
                   </div>
                 )

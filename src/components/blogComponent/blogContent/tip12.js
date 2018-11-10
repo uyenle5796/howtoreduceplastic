@@ -37,7 +37,7 @@ class Tip12 extends Component {
             <li><a href="https://www.plasticpollutioncoalition.org">Plastic Pollution Coalition</a></li>
           </ul>
           <br/>
-          <img id="tip12-illustration" src="img/tip12_illustrations/thankyou_turtle.svg" alt="drawing"/>
+          <img className="centered tip12-illustration" src="img/tip12_illustrations/thankyou_turtle.svg" alt="drawing"/>
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip="" />

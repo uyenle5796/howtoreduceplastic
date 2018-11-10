@@ -23,7 +23,7 @@ class Tip6 extends Component {
 
         <div className="post-content">
           <div>
-            <img id="tip6-title1-image" src="img/tip6_illustrations/tip6_title1.svg" alt="Join a Beach Clean"/>
+            <img className="centered tip6-title1-image" src="img/tip6_illustrations/tip6_title1.svg" alt="Join a Beach Clean"/>
             Beach cleaning is one of the best ways to protect the ocean and marine life from plastic waste and pollution.
             Using the tools provided, you just need to pick up any waste you see when walking along the beach. Not only so, you will make new friends as well!
             See below are organisations who organise beach cleans around the UK, simply sign up and start cleaning!

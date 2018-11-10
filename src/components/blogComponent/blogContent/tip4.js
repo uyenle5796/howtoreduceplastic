@@ -22,7 +22,7 @@ class Tip4 extends Component {
         <BlogCover id={this.state.id} title={this.state.title} coverImage={this.state.image}/>
 
         <div className="post-content">
-            <p>Something here</p>
+          <img className="centered tip4-illustration" src="img/tip4_illustrations/buy_in_bulk.svg" alt="drawing"/>
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>

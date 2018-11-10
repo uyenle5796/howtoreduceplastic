@@ -35,7 +35,7 @@ class Tip11 extends Component {
             <li>Finally, your smartphone is another a great source of information - simply search for "plastic pollution" on your phone's news app. The world really is at your fingertips!</li>
           </ul>
           <br/>
-          <img id="tip11-illustration" src="img/tip11_illustrations/happy_reading.svg" alt="drawing"/>
+          <img className="centered tip11-illustration" src="img/tip11_illustrations/happy_reading.svg" alt="drawing"/>
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>

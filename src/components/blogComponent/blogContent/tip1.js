@@ -21,6 +21,7 @@ class Tip1 extends Component {
         <BlogCover id={this.state.id} title={this.state.title} coverImage={this.state.image}/>
 
         <div className="post-content">
+          <img className="centered tip1-illustration" src="img/tip1_illustrations/say_no_to_plastic.svg" alt="drawing"/>
         </div>
 
         <Navigation linkToPrevTip="" linkToNextTip={this.state.linkToNextTip}/>
