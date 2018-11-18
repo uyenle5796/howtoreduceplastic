@@ -44,7 +44,7 @@ class Tip5 extends Component {
           brands: [
             {
               id: 1,
-              name: "Bees Wrap",
+              name: "Bee's Wrap",
               linkTo: 'https://www.beeswrap.com'
             },
             {
@@ -126,7 +126,8 @@ class Tip5 extends Component {
           brands: [
             {
               id: 1,
-              name: "Use soap over hand-wash bottles"
+              name: "Use soap over hand-wash bottles",
+              linkTo: ""
             },
             {
               id: 2,

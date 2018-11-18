@@ -29,12 +29,12 @@ class Tip1 extends Component {
           You can do this by following some tips below:
           <ul>
             <li>
-              <span role="img" aria-label="Cup">🥤</span> <b>Always have a reusable cup, shopping bag and cutlery in your bag</b> so
+              <span role="img" aria-label="Cup">🥤</span> <b>Always have a reusable cup, shopping bag and cutlery with you</b> so
                you'll always have them when needed. Make sure to use them when buying drinks and get 25p discount too! ;)
             </li>
             <li>
               <span role="img" aria-label="No">🙅</span>‍ <b>Refuse plastics when offered</b>. I get this a lot when buying takeway as the staff tend to give you additional cutlery and tissues. This also happens during checkout
-              at stores when the staff pack your vegetables in plastic bags. Next time you encouter these situations, kindly return them and say "no, thank you. I'm trying to cut down plastic waste."
+              at stores when the staff packs your vegetables in plastic bags. Next time you encouter these situations, kindly return them and say "No, thank you. I'm trying to cut down plastic waste."
             </li>
             <li>
               <span role="img" aria-label="Recycle">♻️</span>‍ <b>Be a conscious consumer</b>: check for recycling label on every item before you buy it.

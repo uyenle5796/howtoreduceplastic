@@ -34,7 +34,8 @@ class Tip7 extends Component {
           Tip: Most recycling centres also have clothes donation, so you can donate and recycle old clothes too!<br/>
           Use the map below for all recycling centres in UK and find ones near you:
           <br/><br/>
-          <iframe id="tip7-google-maps" src="https://www.google.com/maps/d/u/0/embed?mid=1dzrsebmOLfBiMpOK5Tn1cIsCTjpYDeka"></iframe>
+          <iframe id="tip7-google-maps" title="Google Maps of Recycling Centres in UK" src="https://www.google.com/maps/d/u/0/embed?mid=1dzrsebmOLfBiMpOK5Tn1cIsCTjpYDeka"></iframe>
+          <i>If there's any recycling centre that you know but is not on the map, please let me know.</i>
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>
