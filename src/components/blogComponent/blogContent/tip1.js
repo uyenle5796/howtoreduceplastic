@@ -30,7 +30,7 @@ class Tip1 extends Component {
           <ul>
             <li>
               <span role="img" aria-label="Cup">🥤</span> <b>Always have a reusable cup, shopping bag and cutlery in your bag</b> so
-               you'll always have them when needed. Make sure to use them when buying coffee and get 25p discount too! ;)
+               you'll always have them when needed. Make sure to use them when buying drinks and get 25p discount too! ;)
             </li>
             <li>
               <span role="img" aria-label="No">🙅</span>‍ <b>Refuse plastics when offered</b>. I get this a lot when buying takeway as the staff tend to give you additional cutlery and tissues. This also happens during checkout
