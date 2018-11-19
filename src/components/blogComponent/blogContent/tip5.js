@@ -163,11 +163,23 @@ class Tip5 extends Component {
 
             { this.state.productsList.map(product => {
                 var brands = product.brands.map(brand => {
-                  return (
-                    <ul key={brand.id}>
-                      <li><a href={brand.linkTo}>{brand.name}</a></li>
-                    </ul>
-                  )
+                  //if link is empty, render text
+                  if (brand.linkTo === "") {
+                    return (
+                      <ul key={brand.id}>
+                        <li>{brand.name}</li>
+                      </ul>
+                    )
+                  }
+                  //else render links
+                  else {
+                    return (
+                      <ul key={brand.id}>
+                        <li><a href={brand.linkTo}>{brand.name}</a></li>
+                      </ul>
+                    )
+                  }
+
                 });
                 return (
                   <div className="tip5-product-list">
