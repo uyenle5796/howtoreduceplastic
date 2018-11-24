@@ -8,6 +8,7 @@ class Footer extends Component {
         <nav>
           <ul>
             <li><Link to="/about">About</Link></li>
+            <li id="buy-zine-link"><a href="https://gum.co/GnAEQ">Buy Zine!</a></li>
             <li id="author-mark">Made by <a href="https://uyen-le.me">Uyen Le</a></li>
           </ul>
         </nav>

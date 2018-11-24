@@ -179,7 +179,6 @@ class Tip5 extends Component {
                       </ul>
                     )
                   }
-
                 });
                 return (
                   <div className="tip5-product-list">
