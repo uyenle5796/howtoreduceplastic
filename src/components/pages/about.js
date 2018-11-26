@@ -6,9 +6,9 @@ class About extends Component {
       <div className="pages">
         <div className="post-content">
 
-          <h3 id="about-subtitle">Your 101 guide on cutting down plastic waste.</h3>
-          <br/><br/>
-          <b>How To Reduce Plastic</b> was created with the hope to help fight the ever-increasing <b><a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/">global plastic pollution problems.</a></b>
+          <h3 id="about-subheading">Your 101 guide on cutting down plastic waste.</h3>
+          <br/>
+          <b>How To Reduce Plastic</b> was created with the hope to help fight the ever-increasing <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/">global plastic pollution problems</a>.
           <br/><br/>
           The site contains top tips, actions and resources on different ways that anyone can do to reduce their personal plastic consumption.
           Through this site, we hope to spread the message that reducing plastic consumption can be very fun and easy,
@@ -16,7 +16,14 @@ class About extends Component {
           <span role="img" aria-label="Tree">🌳</span>
           <span role="img" aria-label="Whale">🐋</span>
           <br/><br/>
+
+          <h4 id="about-subtitle"> Contact</h4>
           Please <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or tweet me @<a href="https://twitter.com/uyenlex">uyenlex</a> if you have any feedback, suggestions about the site, or simply want to have a chat - I'd love to hear from you! <span role="img" aria-label="Smiley Face">😊</span>
+          <br/><br/>
+
+          <h4 id="about-subtitle"> Love this? Support me!</h4>
+          This website was built during my free time and is fully self-funded. If you love this site, I've also created a zine so you can print out, read it anytime, use as posters or gift it to a friend:
+          <b><a target="_blank" rel="noopener noreferrer" href="http://gum.co/reduce-plastic-zine"> Buy the zine!</a></b>
         </div>
 
     </div>

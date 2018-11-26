@@ -223,9 +223,14 @@ body {
     color: $lightGrey;
   }
 
-  #about-subtitle {
+  #about-subheading {
     color: #B6C2D9;
     font-style: italic;
+  }
+
+  #about-subtitle {
+    color: #E9724C; //#EF6F6C;
+    text-align: left;
   }
 }
 
@@ -273,7 +278,7 @@ footer {
     #buy-zine-link {
       margin-left: 20px;
     }
-    
+
     #author-mark{
       float: right;
       color: $lightGrey;
