@@ -20,7 +20,7 @@ class TipList extends Component {
       tips: [{
           id: 1,
           name: "Say No to Single-Use Plastic",
-          image: 'img/tip1_square_stripped.svg',
+          image: 'img/tip1_square.svg',
           linkTo: '/tip1'
         },
         {
@@ -32,13 +32,13 @@ class TipList extends Component {
         {
           id: 3,
           name: "Buy Without Plastic Packaging",
-          image: 'img/tip3_square_stripped.svg',
+          image: 'img/tip3_square.svg',
           linkTo: '/tip3'
         },
         {
           id: 4,
           name: "Buy in Bulk",
-          image: 'img/tip4_square_stripped.svg',
+          image: 'img/tip4_square.svg',
           linkTo: '/tip4'
         },
         {
@@ -74,7 +74,7 @@ class TipList extends Component {
         {
           id: 10,
           name: "Educate Yourself",
-          image: 'img/tip10_square_stripped.svg',
+          image: 'img/tip10_square.svg',
           linkTo: '/tip10'
         },
         {
