@@ -10,7 +10,7 @@ class Tip4 extends Component {
     this.state = {
       id : 4,
       title : "Buy in Bulk",
-      image : 'img/covers/tip4_cover_stripped.svg',
+      image : 'img/tip4_cover_stripped.svg',
       linkToPrevTip : 'tip3',
       linkToNextTip : 'tip5'
     }

@@ -10,7 +10,7 @@ class Tip3 extends Component {
     this.state = {
       id : 3,
       title : "Buy Without Plastic Packaging",
-      image : 'img/covers/tip3_cover.svg',
+      image : 'img/tip3_cover.svg',
       linkToPrevTip : 'tip2',
       linkToNextTip : 'tip4'
     }

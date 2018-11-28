@@ -10,7 +10,7 @@ class Tip5 extends Component {
     this.state = {
       id : 5,
       title : "Choose Eco-friendly Alternatives",
-      image : 'img/covers/tip5_cover_stripped.svg',
+      image : 'img/tip5_cover_stripped.svg',
       linkToPrevTip : 'tip4',
       linkToNextTip : 'tip6',
       productsList: []
