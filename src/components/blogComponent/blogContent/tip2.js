@@ -10,7 +10,7 @@ class Tip2 extends Component {
     this.state = {
       id : 2,
       title : "Bring Your Own Reusables",
-      image : 'img/tip2_cover.svg',
+      image : 'img/covers/tip2_cover_stripped.svg',
       linkToPrevTip : 'tip1',
       linkToNextTip : 'tip3'
     }

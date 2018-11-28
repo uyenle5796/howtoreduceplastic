@@ -23,7 +23,7 @@ class About extends Component {
 
           <h4 id="about-subtitle"> Love this? Support me!</h4>
           This website was built during my free time and is fully self-funded. If you love this site, I've also created a zine so you can print out, read it anytime, use as posters or gift it to a friend:<br/>
-          <a class="gumroad-button" href="https://gum.co/reduce-plastic-zine" target="_blank"> Buy Zine</a>
+          <a className="gumroad-button" href="https://gum.co/reduce-plastic-zine" target="_blank" rel="noopener noreferrer"> Buy Zine</a>
         </div>
 
     </div>

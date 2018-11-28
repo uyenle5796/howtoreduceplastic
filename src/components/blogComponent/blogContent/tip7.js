@@ -10,7 +10,7 @@ class Tip7 extends Component {
     this.state = {
       id : 7,
       title : "Sort Your Rubbish and Recycle at Nearest Recycling Centre",
-      image : 'img/tip7_cover.svg',
+      image : 'img/covers/tip7_cover.svg',
       linkToPrevTip : 'tip6',
       linkToNextTip : 'tip8'
     }

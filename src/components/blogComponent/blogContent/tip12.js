@@ -10,7 +10,7 @@ class Tip12 extends Component {
     this.state = {
       id : 12,
       title : "Donate to Charities",
-      image : 'img/tip12_cover.svg',
+      image : 'img/covers/tip12_cover.svg',
       linkToPrevTip : 'tip11'
     }
   }

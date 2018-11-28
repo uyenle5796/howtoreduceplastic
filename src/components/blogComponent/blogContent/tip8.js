@@ -10,7 +10,7 @@ class Tip8 extends Component {
     this.state = {
       id : 8,
       title : "Write to Businesses",
-      image : 'img/tip8_cover.svg',
+      image : 'img/covers/tip8_cover_stripped.svg',
       linkToPrevTip : 'tip7',
       linkToNextTip : 'tip9'
     }

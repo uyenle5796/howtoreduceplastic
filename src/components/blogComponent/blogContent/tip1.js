@@ -10,7 +10,7 @@ class Tip1 extends Component {
     this.state = {
       id : 1,
       title : "Say No to Single-Use Plastic",
-      image : 'img/tip1_cover.svg',
+      image : 'img/covers/tip1_cover_stripped.svg',
       linkToNextTip : 'tip2'
     };
   }

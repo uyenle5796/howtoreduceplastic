@@ -13,7 +13,6 @@ class Navigation extends Component {
             <li><Link to={this.props.linkToNextTip}>Next Tip</Link></li> : ""
         }
       </div>
-
     );
   }
 }

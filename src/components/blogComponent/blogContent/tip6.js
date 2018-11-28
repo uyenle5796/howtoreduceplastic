@@ -10,7 +10,7 @@ class Tip6 extends Component {
     this.state = {
       id : 6,
       title : "Volunteer",
-      image : 'img/tip6_cover.svg',
+      image : 'img/covers/tip6_cover.svg',
       linkToPrevTip : 'tip5',
       linkToNextTip : 'tip7'
     }
