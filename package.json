@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "engines": {
-    "node": "10.3.0"
+    "node": "8.11.4"
   },
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test --env=jsdom",
-  "eject": "react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "gulp-changed": "^3.2.0",
