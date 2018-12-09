@@ -126,16 +126,21 @@ class Tip5 extends Component {
           brands: [
             {
               id: 1,
+              name: "Zero Waste Club",
+              linkTo: "https://www.zero-waste-club.com"
+            },
+            {
+              id: 2,
               name: "Use soap over hand-wash bottles",
               linkTo: ""
             },
             {
-              id: 2,
+              id: 3,
               name: "Biodegradable bin bags",
               linkTo: 'https://www.amazon.co.uk/s/ref=nb_sb_ss_i_3_5?url=search-alias%3Dkitchen&field-keywords=biodegradable+bin+bags&sprefix=biode%2Ckitchen%2C152&crid=2FAMZME2COHMH'
             },
             {
-              id: 3,
+              id: 4,
               name: "Recycled paper tissues",
               linkTo: 'https://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=recycled+toilet+tissue&rh=i%3Aaps%2Ck%3Arecycled+toilet+tissue'
             }

@@ -28,6 +28,7 @@ class Tip11 extends Component {
           <ul><br/>
             <li><a href="https://www.nationalgeographic.com/environment/planetorplastic/">National Geographic: Planet or Plastic?</a></li>
             <li><a href="https://www.bbc.co.uk/search?q=plastic&filter=news&suggid=">BBC News on Plastic</a></li>
+            <li><a href="https://www.wired.co.uk/topic/wired-on-climate-change">WIRED on Climate Change</a></li>
             <li><a href="https://www.plasticpollutioncoalition.org/plasticfreetimes">Plastic Pollution Coalition - Latest News</a></li>
             <li><a href="https://www.weforum.org/system-initiatives/shaping-the-future-of-environment-and-natural-resource-security/articles">World Economic Forum</a></li>
             <li><a href="https://www.drudgereportarchives.com/dsp/search.htm?searchFor=plastic">The Drudge Report</a> has collection of news on from all over the internet.</li>
