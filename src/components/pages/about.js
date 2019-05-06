@@ -18,7 +18,7 @@ class About extends Component {
           <br/><br/>
 
           <h4 id="about-subtitle"> Contact</h4>
-          Please <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or tweet me @<a href="https://twitter.com/uyenlex">uyenlex</a> if you have any feedback, suggestions about the site, or simply want to have a chat - I'd love to hear from you! <span role="img" aria-label="Smiley Face">😊</span>
+          Please <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or tweet me <a href="https://twitter.com/uyenlex">@uyenlex</a> if you have any feedback, suggestions or simply want to have a chat - I'd love to hear from you! <span role="img" aria-label="Smiley Face">😊</span>
           <br/><br/>
 
           <h4 id="about-subtitle"> Love this? Support me!</h4>

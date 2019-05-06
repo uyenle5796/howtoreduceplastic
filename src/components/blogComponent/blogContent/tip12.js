@@ -37,6 +37,8 @@ class Tip12 extends Component {
             <li><a href="https://www.plasticpollutioncoalition.org">Plastic Pollution Coalition</a></li>
           </ul>
           <br/>
+          Finally, you can also shop at <a href="http://smile.amazon.co.uk">smile.amazon.co.uk</a>, where Amazon will donate a small proportion of your purchases towards
+          a charity of your choice.
           <img className="centered tip12-illustration" src="img/tip12_illustrations/thankyou_turtle.svg" alt="drawing"/>
         </div>
 

@@ -131,7 +131,7 @@ class Tip5 extends Component {
             },
             {
               id: 2,
-              name: "Pela case",
+              name: "Pela phone case",
               linkTo: "https://pelacase.com"
             },
             {

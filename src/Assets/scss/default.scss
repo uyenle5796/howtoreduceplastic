@@ -353,7 +353,12 @@ footer {
     #buy-zine-link {
       margin-left: 20px;
     }
-
+    #instagram {
+      margin-left: 20px;
+    }
+    #twitter {
+      margin-left: 20px;
+    }
     #author-mark{
       float: right;
       color: $lightGrey;
@@ -361,7 +366,6 @@ footer {
 
     a {
       color: $lightGrey;
-
       &:active {
         color: $oceanBlue;
       }
