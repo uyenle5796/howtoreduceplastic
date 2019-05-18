@@ -22,6 +22,9 @@ class Tip4 extends Component {
         <BlogCover id={this.state.id} title={this.state.title} coverImage={this.state.image}/>
 
         <div className="post-content">
+          For items that you love or eat a lot of, for example crisps, sweets, cereals, buy them in larger quantities.
+          This will help reduce packaging dramatically, plus you save money too!
+          <br/><br/>
           <img className="centered tip4-illustration" src="img/tip4_illustrations/buy_in_bulk.svg" alt="drawing"/>
         </div>
 

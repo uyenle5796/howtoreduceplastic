@@ -38,6 +38,7 @@ class Tip6 extends Component {
             <img src="img/tip6_illustrations/tip6_title2.svg" alt="Participate in Litter Picking"/><br/>
             Can not make it to any nearby beaches? Good news, you can also participate litter picking at your local areas, communities, villages! Having a clean, tidy neighborhood also makes a great difference!
             <br/><br/>
+            <a href="https://plasticpatrol.co.uk/">Plastic Patrol</a><br/>
             <a href="http://www.keepbritaintidy.org/get-involved/support-our-campaigns/great-british-spring-clean">Keep Britain Tidy Spring Clean</a> (for all  volunteering opportunities from Keep Britain Tidy see <a href="http://www.keepbritaintidy.org/become-care-project-volunteer">here</a>)
           </div>
 

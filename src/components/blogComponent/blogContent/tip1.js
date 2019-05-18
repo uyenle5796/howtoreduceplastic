@@ -26,18 +26,27 @@ class Tip1 extends Component {
           This makes single use plastic a major contributor to plastic waste and pollution to the environment.
           <br/><br/>
           Therefore, the first and most important step to your reducing plastic journey is learning to <b>say no to all single-use plastics</b>.
-          You can get started by following some tips below:
+          You can get started by following these tips:
+          <br/><br/>
+
           <ul>
             <li>
-              <span role="img" aria-label="Cup">🥤</span> <b>Always have a reusable cup, shopping bag and cutlery with you</b> so
-               you'll always have them when needed. Make sure to use them when buying drinks and get 25p discount too!
+              <span role="img" aria-label="Cup">🥤</span>
+              <b>Always have a reusable cup, shopping bag and cutlery</b> with you so you can use them when needed, plus you get 25p off too!
             </li>
+            <br/>
             <li>
-              <span role="img" aria-label="No">🙅</span>‍ <b>Refuse plastics when offered</b>. This happens a lot when buying takeway as the staff tend to give you additional cutlery and tissues. This also happens during checkout
+              <span role="img" aria-label="No">🙅</span>‍
+              <b>Refuse plastics when offered</b>.
+              <br/>This happens a lot when buying takeway as the staff tend to give you additional cutlery and tissues. This also happens during checkout
               at stores when the staff packs your vegetables in plastic bags. Next time you encouter these situations, kindly return them and say "No, thank you. I'm trying to cut down plastic waste."
             </li>
+            <br/>
             <li>
-              <span role="img" aria-label="Recycle">♻️</span>‍ <b>Be a conscious consumer</b>: check for recycling label on every item before you buy it.
+              <span role="img" aria-label="Recycle">♻️</span>‍
+              <b>Be a conscious consumer</b>
+              <br/>
+              Check for recycling label on every item before you buy it.
               Avoid buying items that have "Not Currently Recylable" labels and choose those that say "Widely Recycled" instead.
             </li>
           </ul>

@@ -5,8 +5,6 @@ class About extends Component {
     return (
       <div className="pages">
         <div className="post-content">
-
-          <h3 id="about-subheading">Your 101 guide on cutting down plastic waste.</h3>
           <br/>
           <b>How To Reduce Plastic</b> was created with the hope to help fight the ever-increasing <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/">global plastic pollution problems</a>.
           <br/><br/>
@@ -17,12 +15,12 @@ class About extends Component {
           <span role="img" aria-label="Whale">🐋</span>
           <br/><br/>
 
-          <h4 id="about-subtitle"> Contact</h4>
-          Please <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or tweet me <a href="https://twitter.com/uyenlex">@uyenlex</a> if you have any feedback, suggestions or simply want to have a chat - I'd love to hear from you! <span role="img" aria-label="Smiley Face">😊</span>
+          <h5 id="about-subtitle"> Contact</h5>
+          Feel free to <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or tweet me <a href="https://twitter.com/uyenlex">@uyenlex</a> if you have any feedback, suggestions or simply want to have a chat - I'd love to hear from you! <span role="img" aria-label="Smiley Face">😊</span>
           <br/><br/>
 
-          <h4 id="about-subtitle"> Love this? Support me!</h4>
-          This website was built during my free time and is fully self-funded. If you love this site, I've also created a zine so you can print out, read it anytime, use as posters or gift it to a friend:<br/>
+          <h5 id="about-subtitle"> Love this? Support me!</h5>
+          This website was built during my free time and is fully self-funded. If you love this site, I've created a zine so you can have these tips with you anytime anywhere:<br/>
           <a className="gumroad-button" href="https://gum.co/reduce-plastic-zine" target="_blank" rel="noopener noreferrer"> Buy Zine</a>
         </div>
 

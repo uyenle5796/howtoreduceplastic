@@ -8,17 +8,21 @@ class Tip10 extends Component {
     super();
 
     this.state = {
-      id : 10,
-      title : "Educate Yourself",
-      image : 'img/tip10_cover.svg',
-      linkToPrevTip : 'tip9',
-      linkToNextTip : 'tip11',
-      booksList : []
+      id: 10,
+      title: "Educate Yourself",
+      image: 'img/tip10_cover.svg',
+      linkToPrevTip: 'tip9',
+      linkToNextTip: 'tip11',
+      booksList: [],
+      documentariesList: [],
+      articlesList: []
     }
   }
 
   componentDidMount(){
     this.getBooksList();
+    this.getDocumentariesList();
+    this.getArticlesList();
   }
 
   getBooksList(){
@@ -62,6 +66,55 @@ class Tip10 extends Component {
     });
   }
 
+  getDocumentariesList() {
+    this.setState({
+      documentariesList: [
+        {
+          id: 1,
+          title: "Our Planet",
+          linkTo: "https://www.ourplanet.com/en/"
+        },
+        {
+          id: 2,
+          title: "Blue Planet 2",
+          linkTo: "https://www.bbc.co.uk/programmes/p04tjbtx"
+        },
+        {
+          id: 3,
+          title: "BBC Plastic Shorts",
+          linkTo: "https://www.bbc.co.uk/programmes/p06bjyxs"
+        }
+      ]
+    })
+  }
+
+  getArticlesList() {
+    this.setState({
+      articlesList: [
+        {
+          id: 1,
+          title: "RecycleNow: Recycling Knowledge",
+          linkTo: "https://www.recyclenow.com/recycling-knowledge"
+        },
+        {
+          id: 2,
+          title: "BBC Plastic Watch",
+          linkTo: "http://www.bbc.co.uk/programmes/articles/11CnCQR0GJfkDgJs57sR5Ps/plastics-action"
+        },
+        {
+          id: 3,
+          title: "National Geographic: Planet or Plastic?",
+          linkTo: "https://www.nationalgeographic.com/environment/planetorplastic/"
+        },
+        {
+          id: 4,
+          title: "National Geongraphic: 10 Shocking Facts about Plastic",
+          linkTo: "https://www.nationalgeographic.co.uk/10-shocking-facts-about-plastic"
+        }
+      ]
+    })
+  }
+
   render() {
     return (
       <div>
@@ -87,22 +140,25 @@ class Tip10 extends Component {
             }
           </div>
           <br/>
-
-          <h4>Videos / Documentaries:</h4>
-          <ul>
-            <li><a href="https://www.bbc.co.uk/programmes/p04tjbtx">Blue Planet 2</a></li>
-            <li><a href="https://www.bbc.co.uk/programmes/p06bjyxs">BBC Plastic Shorts</a></li>
-          </ul>
+          <h4>Documentaries:</h4>
+          { this.state.documentariesList.map(item => {
+              return (
+                <ul key={item.id}>
+                  <li><a href={item.linkTo}>{item.title}</a></li>
+                </ul>
+              )
+            })
+          }
           <br/>
-
           <h4>Articles:</h4>
-          <ul>
-            <li><a href="https://www.recyclenow.com/recycling-knowledge">RecycleNow: Recycling Knowledge</a></li>
-            <li><a href="http://www.bbc.co.uk/programmes/articles/11CnCQR0GJfkDgJs57sR5Ps/plastics-action">BBC Plastics Watch</a></li>
-            <li><a href="https://www.nationalgeographic.com/environment/planetorplastic/">National Geographic: Planet or Plastic?</a></li>
-            <li><a href="https://www.nationalgeographic.co.uk/10-shocking-facts-about-plastic">National Geongraphic: 10 Shocking Facts about Plastic</a></li>
-            <br/>
-          </ul>
+          { this.state.articlesList.map(article => {
+              return (
+                <ul key={article.id}>
+                  <li><a href={article.linkTo}>{article.title}</a></li>
+                </ul>
+              )
+            })
+          }
         </div>
 
         <Navigation linkToPrevTip={this.state.linkToPrevTip} linkToNextTip={this.state.linkToNextTip}/>
