@@ -12,9 +12,9 @@
 */
 
 * {
-    border: 0;
-    padding: 0;
-    margin: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 
 header {
@@ -41,6 +41,7 @@ header {
 
         &:hover {
           color: $black;
+          transition: all 0.2s ease-in;
         }
       }
     }
@@ -78,7 +79,7 @@ body {
 
       // Numbers
       h2 {
-        font-family: 'Caveat Brush', cursive;
+        font-family: "Caveat Brush", cursive;
         font-weight: bold;
         color: $white;
 
@@ -114,6 +115,7 @@ body {
         border: 2px solid $white;
         border-bottom-width: 4px;
         cursor: pointer;
+        transition: all 0.2s ease-in;
       }
     }
   }
@@ -142,7 +144,7 @@ body {
 
   // Numbers
   h4 {
-    font-family:'Caveat Brush', cursive;
+    font-family: "Caveat Brush", cursive;
     font-size: 3.125em;
     font-weight: bold;
     color: $white;
@@ -214,8 +216,8 @@ body {
       width: 80%;
       //enlarge on hover
       &:hover {
-        transition: transform .2s;
-        transform: scale(1.10);
+        transition: transform 0.2s;
+        transform: scale(1.1);
       }
     }
 
@@ -235,53 +237,57 @@ body {
   }
 
   @include media-breakpoint-between(xs, sm) {
+    $width-var: 100%;
+
     .tip1-illustration {
-      width: 100%;
+      width: $width-var;
     }
     .tip2-illustration {
-      width: 100%;
+      width: $width-var;
     }
     .tip3-illustration {
-      width: 100%;
+      width: $width-var;
     }
     .tip4-illustration {
-      width: 100%;
+      width: $width-var;
     }
     .tip6-title1-image {
-      width: 100%;
+      width: $width-var;
     }
     .tip7-illustration {
-      width: 100%;
+      width: $width-var;
     }
     .tip8-illustration {
-      width: 100%;
+      width: $width-var;
     }
     .tip9-illustration {
-      width: 100%;
+      width: $width-var;
     }
     .tip11-illustration {
-      width: 100%;
+      width: $width-var;
     }
     .tip12-illustration {
-      width: 100%;
+      width: $width-var;
     }
   }
 
   @include media-breakpoint-between(md, xl) {
+    $width-var: 70%;
+
     .tip1-illustration {
-      width: 70%;
+      width: $width-var;
     }
     .tip2-illustration {
-      width: 70%;
+      width: $width-var;
     }
     .tip3-illustration {
-      width: 70%;
+      width: $width-var;
     }
     .tip4-illustration {
-      width: 70%;
+      width: $width-var;
     }
     .tip6-title1-image {
-      width: 70%;
+      width: $width-var;
     }
     .tip7-illustration {
       width: 90%;
@@ -358,29 +364,40 @@ footer {
       display: inline-block;
       float: left;
     }
+
+    $var-margin-left: 20px;
+
     #buy-zine-link {
-      margin-left: 20px;
+      margin-left: $var-margin-left;
     }
-    #instagram {
-      margin-left: 20px;
-    }
-    #twitter {
-      margin-left: 20px;
-    }
-    #author-mark{
+
+    #author-mark {
       float: right;
       color: $lightGrey;
     }
 
     a {
+      // social media icons
+      .instagram,
+      .twitter {
+        margin-left: $var-margin-left;
+        path {
+          &:hover {
+            fill: black;
+            transition: all 0.2s ease-in;
+          }
+        }
+      }
+
+      //links
       color: $lightGrey;
       &:active {
         color: $oceanBlue;
       }
       &:hover {
+        transition: all 0.2s ease-in;
         color: $black;
       }
     }
   }
-
 }

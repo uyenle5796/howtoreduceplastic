@@ -1,30 +1,61 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class About extends Component {
   render() {
     return (
       <div className="pages">
         <div className="post-content">
-          <br/>
-          <b>How To Reduce Plastic</b> was created with the hope to help fight the ever-increasing <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/">global plastic pollution problems</a>.
-          <br/><br/>
-          The site contains top tips, actions and resources on different ways that anyone can do to reduce their personal plastic consumption.
-          Through this site, we hope to spread the message that reducing plastic consumption can be very fun and easy,
-          and that together we can make a change to save the environment, one step at a time. <span role="img" aria-label="Globe">🌏</span>
-          <span role="img" aria-label="Tree">🌳</span>
-          <span role="img" aria-label="Whale">🐋</span>
-          <br/><br/>
-
-          <h5 id="about-subtitle"> Contact</h5>
-          Feel free to <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or tweet me <a href="https://twitter.com/uyenlex">@uyenlex</a> if you have any feedback, suggestions or simply want to have a chat - I'd love to hear from you! <span role="img" aria-label="Smiley Face">😊</span>
-          <br/><br/>
-
-          <h5 id="about-subtitle"> Love this? Support me!</h5>
-          This website was built during my free time and is fully self-funded. If you love this site, I've created a zine so you can have these tips with you anytime anywhere:<br/>
-          <a className="gumroad-button" href="https://gum.co/reduce-plastic-zine" target="_blank" rel="noopener noreferrer"> Buy Zine</a>
+          <br />
+          <b>How To Reduce Plastic</b> was created with the hope to help fight the
+          <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/">
+            global plastic pollution problems
+          </a>
+          .
+          <br />
+          <br />
+          The site contains top tips, actions and resources on different ways
+          that anyone can do to reduce their personal plastic consumption.
+          Through this site, we hope to spread the message that reducing plastic
+          consumption can be very fun and easy, and that together we can make a
+          change to save the environment, one step at a time.{" "}
+          <span role="img" aria-label="Globe">
+            🌏
+          </span>
+          <span role="img" aria-label="Tree">
+            🌳
+          </span>
+          <span role="img" aria-label="Whale">
+            🐋
+          </span>
+          <br />
+          <br />
+          <p id="about-subtitle"> Contact</p>
+          Feel free to{" "}
+          <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or tweet
+          me <a href="https://twitter.com/uyenlex">@uyenlex</a> if you have any
+          feedback, suggestions or simply want to have a chat - I'd love to hear
+          from you!{" "}
+          <span role="img" aria-label="Smiley Face">
+            😊
+          </span>
+          <br />
+          <br />
+          <p id="about-subtitle"> Love this? Support me!</p>
+          This website was built during my free time and is fully self-funded.
+          If you love this site, I've created a zine so you can have these tips
+          with you anytime anywhere:
+          <br />
+          <a
+            className="gumroad-button"
+            href="https://gum.co/reduce-plastic-zine"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Buy Zine
+          </a>
         </div>
-
-    </div>
+      </div>
     );
   }
 }
