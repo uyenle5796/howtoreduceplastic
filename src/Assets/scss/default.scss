@@ -382,14 +382,13 @@ footer {
 
     a {
       // social media icons
-      .instagram,
-      .twitter {
+      .email-icon,
+      .instagram-icon,
+      .twitter-icon {
         margin-left: $var-margin-left;
-        path {
-          &:hover {
-            fill: black;
-            transition: all 0.2s ease-in;
-          }
+        path:hover {
+          fill: black;
+          transition: all 0.2s ease-in;
         }
       }
 
