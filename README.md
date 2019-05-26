@@ -11,4 +11,4 @@ $ gulp
 $ npm start
 ```
 
-Go to [localhost:3030](localhost:3030)
+Go to localhost:3000

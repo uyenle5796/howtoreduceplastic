@@ -6,11 +6,7 @@ class About extends Component {
       <div className="pages">
         <div className="post-content">
           <br />
-          <b>How To Reduce Plastic</b> was created with the hope to help fight the
-          <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/">
-            global plastic pollution problems
-          </a>
-          .
+          <b>How To Reduce Plastic</b> was created with the hope to help fight the <a href="https://www.nationalgeographic.com/magazine/2018/06/plastic-planet-waste-pollution-trash-crisis/">global plastic pollution problem</a>.
           <br />
           <br />
           The site contains top tips, actions and resources on different ways
