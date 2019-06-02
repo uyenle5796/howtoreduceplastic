@@ -29,7 +29,7 @@ class Tip3 extends Component {
         },
         {
           id: 2,
-          title: "Lose tea"
+          title: "Loose tea"
         },
         {
           id: 3,
@@ -37,7 +37,7 @@ class Tip3 extends Component {
         },
         {
           id: 4,
-          title: "Products in aluminium, glass or paper"
+          title: "Products in aluminium, glass or paper packaging"
         }
       ]
     });
