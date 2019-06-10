@@ -11,7 +11,7 @@ class Footer extends Component {
               <Link to="/about">About</Link>
             </li>
             <li id="buy-zine-link">
-              <a href="https://gum.co/GnAEQ">Buy Zine</a>
+              <a href="https://gum.co/reduce-plastic-zine">Buy Zine</a>
             </li>
             <li>
               <a href="mailto:hellouyenle@gmail.com">
