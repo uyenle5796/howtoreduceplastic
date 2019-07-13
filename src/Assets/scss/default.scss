@@ -209,6 +209,7 @@ body {
 
   .tip10-books-list {
     display: grid;
+
     @include media-breakpoint-between(xs, sm) {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -357,49 +358,112 @@ footer {
   position: relative;
   width: 90%;
   height: 50px;
-  font-size: 16px;
   background-color: $white;
   margin-left: 5%;
 
-  nav ul {
-    margin-top: 30px;
+  //Tablets and desktops
+  @include media-breakpoint-between(md, xl) {
+    font-size: 16px;
+    $margin-left: 20px;
 
-    li {
-      display: inline-block;
-      float: left;
-    }
+    nav ul {
+      margin-top: 30px;
 
-    $var-margin-left: 20px;
-
-    #buy-zine-link {
-      margin-left: $var-margin-left;
-    }
-
-    #author-mark {
-      float: right;
-      color: $lightGrey;
-    }
-
-    a {
-      // social media icons
-      .email-icon,
-      .instagram-icon,
-      .twitter-icon {
-        margin-left: $var-margin-left;
-        path:hover {
-          fill: black;
-          transition: all 0.2s ease-in;
+      .footer-links {
+        li {
+          display: inline-block;
+          float: left;
+          margin-left: $margin-left;
         }
       }
 
-      //links
-      color: $lightGrey;
-      &:active {
-        color: $oceanBlue;
+      .social-media-links {
+        li {
+          display: inline-block;
+          float: left;
+          margin-left: $margin-left;
+
+          a {
+            .email-icon,
+            .instagram-icon,
+            .twitter-icon {
+              path:hover {
+                fill: black;
+                transition: all 0.2s ease-in;
+              }
+            }
+          }
+        }
       }
-      &:hover {
-        transition: all 0.2s ease-in;
-        color: $black;
+
+      #author-link {
+        float: right;
+        color: $lightGrey;
+      }
+
+      a {
+        color: $lightGrey;
+
+        &:active {
+          color: $oceanBlue;
+        }
+        &:hover {
+          transition: all 0.2s ease-in;
+          color: $black;
+        }
+      }
+    }
+  }
+
+  //Mobiles
+  @include media-breakpoint-between(xs, sm) {
+    height: 120px;
+    font-size: 15px;
+    $margin-left: 10px;
+
+    nav ul {
+      margin-top: 30px;
+
+      .footer-links {
+        margin-left: 25%;
+
+        li {
+          display: inline-block;
+
+          margin-left: $margin-left;
+        }
+      }
+
+      .social-media-links {
+        margin-top: 10px;
+        margin-left: 35%;
+
+        li {
+          display: inline-block;
+          margin-left: $margin-left;
+
+          a {
+            .email-icon,
+            .instagram-icon,
+            .twitter-icon {
+              path:hover {
+                fill: black;
+                transition: all 0.2s ease-in;
+              }
+            }
+          }
+        }
+      }
+
+      #author-link {
+        float: center;
+        margin-left: 33%;
+        margin-top: 20px;
+        color: $lightGrey;
+      }
+
+      a {
+        color: $lightGrey;
       }
     }
   }
