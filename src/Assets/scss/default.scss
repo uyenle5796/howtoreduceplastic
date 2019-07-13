@@ -359,12 +359,12 @@ footer {
   width: 90%;
   height: 50px;
   background-color: $white;
-  margin-left: 5%;
+  margin-left: 4%;
 
   //Tablets and desktops
   @include media-breakpoint-between(md, xl) {
-    font-size: 16px;
     $margin-left: 20px;
+    font-size: 16px;
 
     nav ul {
       margin-top: 30px;
