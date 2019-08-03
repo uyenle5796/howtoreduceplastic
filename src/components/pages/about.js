@@ -44,7 +44,7 @@ class About extends Component {
           This website was built during my free time and is fully self-funded.
           If you love this site, please support me via{" "}
           <a href="https://howtoreduceplastic.teemill.com/">
-            Apparel shop
+            Teemill shop
           </a> and{" "}
           <a href="https://gum.co/reduce-plastic-zine">
             How To Reduce Plastic Zine
