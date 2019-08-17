@@ -125,6 +125,37 @@ body {
       list-style: none;
     }
   }
+
+  //Instagram feed
+  .instagram-profile-title {
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: $dark;
+    padding: 45px 0 20px 0;
+
+    &:before,
+    &:after {
+      background-color: #ededed;
+      content: "";
+      display: inline-block;
+      height: 2px;
+      position: relative;
+      vertical-align: middle;
+      width: 30%;
+    }
+
+    &:before {
+      right: 2em;
+      margin-left: -50%;
+    }
+
+    &:after {
+      left: 2em;
+      margin-right: -50%;
+    }
+  }
 }
 
 /** SIDEBAR MENU **/
@@ -200,8 +231,9 @@ body {
     }
   }
 
-  //tip 7
-  #tip7-google-maps {
+  // CUSTOM STYLING FOR POSTS
+  // Tip 7
+  #google-maps {
     justify-content: center;
     width: 100%;
     height: 700px;
@@ -386,7 +418,6 @@ footer {
 
           a {
             .email-icon,
-            .instagram-icon,
             .facebook-icon,
             .twitter-icon {
               path:hover {
@@ -446,7 +477,6 @@ footer {
 
           a {
             .email-icon,
-            .instagram-icon,
             .twitter-icon {
               path:hover {
                 fill: black;

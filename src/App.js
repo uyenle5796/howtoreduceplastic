@@ -21,6 +21,10 @@ import Tip9 from "./components/blogComponent/blogContent/tip9";
 import Tip10 from "./components/blogComponent/blogContent/tip10";
 import Tip11 from "./components/blogComponent/blogContent/tip11";
 import Tip12 from "./components/blogComponent/blogContent/tip12";
+import Tip13 from "./components/blogComponent/blogContent/tip13";
+import Tip14 from "./components/blogComponent/blogContent/tip14";
+import Tip15 from "./components/blogComponent/blogContent/tip15";
+import Tip16 from "./components/blogComponent/blogContent/tip16";
 
 class App extends Component {
   render() {
@@ -45,6 +49,10 @@ class App extends Component {
             <Route path="/tip10" component={Tip10} />
             <Route path="/tip11" component={Tip11} />
             <Route path="/tip12" component={Tip12} />
+            <Route path="/tip13" component={Tip13} />
+            <Route path="/tip14" component={Tip14} />
+            <Route path="/tip15" component={Tip15} />
+            <Route path="/tip16" component={Tip16} />
           </Switch>
 
           <Footer />
