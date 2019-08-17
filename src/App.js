@@ -21,6 +21,7 @@ import Tip9 from "./components/blogComponent/blogContent/tip9";
 import Tip10 from "./components/blogComponent/blogContent/tip10";
 import Tip11 from "./components/blogComponent/blogContent/tip11";
 import Tip12 from "./components/blogComponent/blogContent/tip12";
+
 class App extends Component {
   render() {
     return (
