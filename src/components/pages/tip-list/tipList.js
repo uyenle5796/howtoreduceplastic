@@ -95,10 +95,21 @@ class TipList extends Component {
 
   render() {
     return (
-      <div className="tips-list">
-        {this.state.tips.map((tip, index) => (
-          <Tip key={index} obj={tip} />
-        ))}
+      <div className="tips-content">
+        <div className="tips-list">
+          {this.state.tips.map((tip, index) => (
+            <Tip key={index} obj={tip} />
+          ))}
+        </div>
+
+        <h4 className="instagram-profile-title">@HOWTOREDUCEPLASTIC</h4>
+        <iframe
+          src="https://cdn.lightwidget.com/widgets/7cb731569b1f5f35a28cc0aa101846f2.html"
+          scrolling="no"
+          allowtransparency="true"
+          className="lightwidget-widget"
+          style={{ width: "80%" }}
+        ></iframe>
       </div>
     );
   }

@@ -156,6 +156,13 @@ body {
       margin-right: -50%;
     }
   }
+
+  .lightwidget-widget {
+    overflow: hidden;
+    border: 0;
+    display: block;
+    margin: 0 auto 0 auto;
+  }
 }
 
 /** SIDEBAR MENU **/
