@@ -112,8 +112,8 @@ body {
       }
       //Show white border when hover on each box
       &:hover {
-        border: 2px solid $white;
-        border-bottom-width: 4px;
+        outline: 5px solid $white;
+        outline-offset: -5px;
         cursor: pointer;
         transition: all 0.2s ease-in;
       }
