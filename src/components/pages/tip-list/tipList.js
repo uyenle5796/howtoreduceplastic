@@ -88,6 +88,24 @@ class TipList extends Component {
           name: "Donate to Charities",
           image: "img/tip12_square.svg",
           linkTo: "/tip12"
+        },
+        {
+          id: 13,
+          name: "Bin Your Gum & Butts!",
+          image: "img/grey.jpg",
+          linkTo: "/tip13"
+        },
+        {
+          id: 14,
+          name: "Change Your Washing",
+          image: "img/grey.jpg",
+          linkTo: "/tip14"
+        },
+        {
+          id: 15,
+          name: "Hey Girls, Free Your Period from Plastic!",
+          image: "img/grey.jpg",
+          linkTo: "/tip15"
         }
       ]
     });

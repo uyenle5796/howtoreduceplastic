@@ -6,7 +6,7 @@
 - npm v6.4.1
 - gulp.js v2.2.0
 
-### Start the app
+### Start the app in Development
 
 ```
 $ gulp

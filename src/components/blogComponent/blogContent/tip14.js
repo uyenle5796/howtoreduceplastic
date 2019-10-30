@@ -2,16 +2,16 @@ import React, { Component } from "react";
 import BlogCover from "../blogCover/cover.js";
 import Navigation from "../blogNavigation/navigation.js";
 
-class Tip12 extends Component {
+class Tip14 extends Component {
   constructor() {
     super();
 
     this.state = {
-      id: 12,
-      title: "Donate to Charities",
+      id: 14,
+      title: "Change your Washing",
       image: "img/tip12_cover.svg",
-      linkToPrevTip: "tip11",
-      linkToNextTip: "tip13",
+      linkToPrevTip: "tip13",
+      linkToNextTip: "tip15",
       webPagesList: []
     };
   }
@@ -43,28 +43,6 @@ class Tip12 extends Component {
           id: 4,
           title: "Plastic Oceans Foundation",
           linkTo: "https://www.wired.co.uk/topic/wired-on-climate-change"
-        },
-        {
-          id: 5,
-          title: "Surfers Against Sewage",
-          linkTo:
-            "https://www.weforum.org/system-initiatives/shaping-the-future-of-environment-and-natural-resource-security/articles"
-        },
-        {
-          id: 6,
-          title: "Sea Life Trust",
-          linkTo:
-            "https://www.drudgereportarchives.com/dsp/search.htm?searchFor=plastic"
-        },
-        {
-          id: 7,
-          title: "5Gyres",
-          linkTo: "https://www.5gyres.org"
-        },
-        {
-          id: 8,
-          title: "Plastic Pollution Coalition",
-          linkTo: "https://www.plasticpollutioncoalition.org"
         }
       ]
     });
@@ -118,4 +96,4 @@ class Tip12 extends Component {
   }
 }
 
-export default Tip12;
+export default Tip14;
