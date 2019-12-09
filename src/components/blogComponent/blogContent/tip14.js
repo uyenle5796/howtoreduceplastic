@@ -9,43 +9,10 @@ class Tip14 extends Component {
     this.state = {
       id: 14,
       title: "Change your Washing",
-      image: "img/tip12_cover.svg",
+      image: "img/grey.jpg",
       linkToPrevTip: "tip13",
-      linkToNextTip: "tip15",
-      webPagesList: []
+      linkToNextTip: "tip15"
     };
-  }
-
-  componentDidMount() {
-    this.getPages();
-  }
-
-  getPages() {
-    this.setState({
-      webPagesList: [
-        {
-          id: 1,
-          title: "WWF",
-          linkTo:
-            "https://www.nationalgeographic.com/environment/planetorplastic/"
-        },
-        {
-          id: 2,
-          title: "Greenpeace",
-          linkTo: "https://www.bbc.co.uk/search?q=plastic&filter=news&suggid="
-        },
-        {
-          id: 3,
-          title: "Marine Conservation Society",
-          linkTo: "https://www.theguardian.com/uk/environment"
-        },
-        {
-          id: 4,
-          title: "Plastic Oceans Foundation",
-          linkTo: "https://www.wired.co.uk/topic/wired-on-climate-change"
-        }
-      ]
-    });
   }
 
   render() {
@@ -58,31 +25,34 @@ class Tip14 extends Component {
         />
 
         <div className="post-content">
-          If there are any charities whose work focus on something you care
-          about, making a small donation to those charities will show them a lot
-          of trust & support and therefore motivate them to keep going. It
-          doesn't have to be much, a one-off donation of as little as £1 is just
-          as amazing!
+          Guess what, clothes actually don't need to be washed after every wear!
+          For example, a wool top or a pair of jeans can be worn up to 5 times.
+          Of course, this depends on the weather as well. If you live in a dry
+          and cold climate, clothes can be worn many times.
           <br />
-          Below are some top charities that focus on tackling plastic waste and
-          pollution and protect the ocean:
-          {this.state.webPagesList.map(item => {
-            return (
-              <ul key={item.id}>
-                <li>
-                  <a href={item.linkTo}>{item.title}</a>
-                </li>
-              </ul>
-            );
-          })}
+          Some tips:
+          <ul>
+            <li>
+              Wash less often. Check out{" "}
+              <a href="https://www.businessinsider.sg/how-often-to-wash-jeans-and-clothes-2017-5/">
+                this guide
+              </a>{" "}
+              to see how often you should wash your clothes
+            </li>
+            <li>Wash cold</li>
+            <li>Use gentle cycle</li>
+            <li>Air dry</li>
+            <li>
+              Use{" "}
+              <a href="https://guppyfriend.com/en/">Guppyfriend wash bags</a> to
+              collect all microplastics from your clothes
+            </li>
+          </ul>
           <br />
-          Finally, you can also shop at{" "}
-          <a href="http://smile.amazon.co.uk">smile.amazon.co.uk</a>, where
-          Amazon will donate a small proportion of your purchases towards a
-          charity of your choice.
+          Bonus points: you'll save so much on electricity and water bills too!
           <img
-            className="centered tip12-illustration"
-            src="img/tip12_illustrations/thankyou_turtle.svg"
+            className="centered tip14-illustration"
+            src="img/grey.jpg"
             alt="drawing"
           />
         </div>

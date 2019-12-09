@@ -8,29 +8,11 @@ class Tip13 extends Component {
 
     this.state = {
       id: 13,
-      title: "Bin Your Gum & Butts!",
-      image: "img/tip12_cover.svg",
+      title: "Bin Your Butts!",
+      image: "img/grey.jpg",
       linkToPrevTip: "tip12",
-      linkToNextTip: "tip14",
-      webPagesList: []
+      linkToNextTip: "tip14"
     };
-  }
-
-  componentDidMount() {
-    this.getPages();
-  }
-
-  getPages() {
-    this.setState({
-      webPagesList: [
-        {
-          id: 1,
-          title: "WWF",
-          linkTo:
-            "https://www.nationalgeographic.com/environment/planetorplastic/"
-        }
-      ]
-    });
   }
 
   render() {
@@ -43,31 +25,33 @@ class Tip13 extends Component {
         />
 
         <div className="post-content">
-          If there are any charities whose work focus on something you care
-          about, making a small donation to those charities will show them a lot
-          of trust & support and therefore motivate them to keep going. It
-          doesn't have to be much, a one-off donation of as little as £1 is just
-          as amazing!
+          Did you know that the number one plastic polluter is actually not
+          plastic, but{" "}
+          <a href="https://www.nationalgeographic.com/environment/2019/08/cigarettes-story-of-plastic/">
+            cigarettes
+          </a>
+          ?! Yes surprise surprise. Cigrette butts or ends, are made up of a
+          plastic called cellulose acetate. Not only are they harmful for your
+          health, they pollute the environment and release harmful chemicals
+          which are harmful to wildlife. They're also very small, which makes it
+          very hard to cleanup (take my word from my{" "}
+          <a href="https://www.instagram.com/p/B0djakzpyGl/">
+            litter picking experience
+          </a>
+          , where 70% of the rubbish I collected were cigarette butts).
           <br />
-          Below are some top charities that focus on tackling plastic waste and
-          pollution and protect the ocean:
-          {this.state.webPagesList.map(item => {
-            return (
-              <ul key={item.id}>
-                <li>
-                  <a href={item.linkTo}>{item.title}</a>
-                </li>
-              </ul>
-            );
-          })}
           <br />
-          Finally, you can also shop at{" "}
-          <a href="http://smile.amazon.co.uk">smile.amazon.co.uk</a>, where
-          Amazon will donate a small proportion of your purchases towards a
-          charity of your choice.
+          Therefore, if you smoke, please be considerate and bin your cigarette
+          butts! You can also get these super colourful, light and affordable{" "}
+          <a href="https://www.amazon.co.uk/s?k=cigarette+butt+pouch&crid=18GBYIU69YPWN&sprefix=cigarette+butt+pou%2Caps%2C129&ref=nb_sb_ss_i_1_18">
+            ashtray pouches
+          </a>{" "}
+          to conveniently collect your butts no matter where you are!
+          <br />
+          <br />
           <img
-            className="centered tip12-illustration"
-            src="img/tip12_illustrations/thankyou_turtle.svg"
+            className="centered tip13-illustration"
+            src="img/grey.jpg"
             alt="drawing"
           />
         </div>

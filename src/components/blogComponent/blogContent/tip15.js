@@ -9,34 +9,33 @@ class Tip15 extends Component {
     this.state = {
       id: 15,
       title: "Hey Girls, Free Your Period from Plastic!",
-      image: "img/tip12_cover.svg",
+      image: "img/grey.jpg",
       linkToPrevTip: "tip14",
-      webPagesList: []
+      productsList: []
     };
   }
 
   componentDidMount() {
-    this.getPages();
+    this.getList();
   }
 
-  getPages() {
+  getList() {
     this.setState({
-      webPagesList: [
+      productsList: [
         {
           id: 1,
-          title: "WWF",
-          linkTo:
-            "https://www.nationalgeographic.com/environment/planetorplastic/"
+          title: "TOTM",
+          linkTo: "https://www.totm.com"
         },
         {
           id: 2,
-          title: "Greenpeace",
-          linkTo: "https://www.bbc.co.uk/search?q=plastic&filter=news&suggid="
+          title: "Natracare",
+          linkTo: "https://www.natracare.com"
         },
         {
           id: 3,
-          title: "Marine Conservation Society",
-          linkTo: "https://www.theguardian.com/uk/environment"
+          title: "SheThinx",
+          linkTo: "https://www.shethinx.com"
         }
       ]
     });
@@ -52,15 +51,14 @@ class Tip15 extends Component {
         />
 
         <div className="post-content">
-          If there are any charities whose work focus on something you care
-          about, making a small donation to those charities will show them a lot
-          of trust & support and therefore motivate them to keep going. It
-          doesn't have to be much, a one-off donation of as little as £1 is just
-          as amazing!
+          Period pags and tampons are great products for us girls, and we can't
+          live without them. However they also come with lots of plastic in the
+          wrappers and packaging. They're also disposed to landfill after each
+          use, which makes them a great polluter.
           <br />
-          Below are some top charities that focus on tackling plastic waste and
-          pollution and protect the ocean:
-          {this.state.webPagesList.map(item => {
+          So why not make a simple switch with these revolutionary products
+          below! They can be reused over and over again and super comfy too!
+          {this.state.productsList.map(item => {
             return (
               <ul key={item.id}>
                 <li>
@@ -70,13 +68,9 @@ class Tip15 extends Component {
             );
           })}
           <br />
-          Finally, you can also shop at{" "}
-          <a href="http://smile.amazon.co.uk">smile.amazon.co.uk</a>, where
-          Amazon will donate a small proportion of your purchases towards a
-          charity of your choice.
           <img
-            className="centered tip12-illustration"
-            src="img/tip12_illustrations/thankyou_turtle.svg"
+            className="centered tip15-illustration"
+            src="img/grey.jpg"
             alt="drawing"
           />
         </div>

@@ -29,12 +29,11 @@ class About extends Component {
           </span>
           <br />
           <br />
-          <p id="about-subtitle"> Contact</p>
-          Feel free to{" "}
-          <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or tweet
-          me <a href="https://twitter.com/uyenlex">@uyenlex</a> if you have any
-          feedback, suggestions or simply want to have a chat - I'd love to hear
-          from you!{" "}
+          <p id="about-subtitle">Suggestions?</p>
+          If you have any feedback, suggestions or simply want to chat, feel
+          free to <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or
+          tweet me at <a href="https://twitter.com/uyenlex">@uyenlex</a>. I'd
+          love to hear from you!{" "}
           <span role="img" aria-label="Smiley Face">
             😊
           </span>
@@ -43,15 +42,24 @@ class About extends Component {
           <p id="about-subtitle"> Love this? Support me!</p>
           This website was built during my free time and is fully self-funded.
           If you love this site, please support me via{" "}
-          <a href="https://howtoreduceplastic.teemill.com/">
-            Teemill shop
-          </a> and{" "}
           <a href="https://gum.co/reduce-plastic-zine">
             How To Reduce Plastic Zine
           </a>
           !
-          <br />
         </div>
+        <h4 className="instagram-profile-title">
+          Follow @
+          <a href="https://www.instagram.com/howtoreduceplastic/">
+            HOWTOREDUCEPLASTIC
+          </a>
+        </h4>
+        <iframe
+          src="https://cdn.lightwidget.com/widgets/7cb731569b1f5f35a28cc0aa101846f2.html"
+          scrolling="no"
+          allowtransparency="true"
+          className="lightwidget-widget"
+          style={{ width: "80%" }}
+        ></iframe>
       </div>
     );
   }
