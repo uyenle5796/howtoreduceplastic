@@ -344,6 +344,15 @@ body {
     .tip12-illustration {
       width: 65%;
     }
+    .tip13-illustration {
+      width: 55%;
+    }
+    .tip14-illustration {
+      width: 55%;
+    }
+    .tip15-illustration {
+      width: 45%;
+    }
   }
 }
 
@@ -461,7 +470,7 @@ footer {
       margin-top: 30px;
 
       .footer-links {
-        margin-left: 25%;
+        margin-left: 36%; //center it
 
         li {
           display: inline-block;
@@ -492,7 +501,7 @@ footer {
 
       #author-link {
         float: center;
-        margin-left: 33%;
+        margin-left: 35%;
         margin-top: 20px;
         color: $lightGrey;
       }

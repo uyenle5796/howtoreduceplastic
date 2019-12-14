@@ -8,8 +8,8 @@ class Tip14 extends Component {
 
     this.state = {
       id: 14,
-      title: "Change your Washing",
-      image: "img/grey.jpg",
+      title: "Change Your Washing Game",
+      image: "img/tip14_cover.svg",
       linkToPrevTip: "tip13",
       linkToNextTip: "tip15"
     };
@@ -25,34 +25,41 @@ class Tip14 extends Component {
         />
 
         <div className="post-content">
-          Guess what, clothes actually don't need to be washed after every wear!
+          Guess what? Clothes actually don't need to be washed after every wear!
           For example, a wool top or a pair of jeans can be worn up to 5 times.
           Of course, this depends on the weather as well. If you live in a dry
-          and cold climate, clothes can be worn many times.
+          and cold climate, clothes can be worn 4-5 times before washing! Bonus:
+          you'll save so much on electricity and water too!
           <br />
-          Some tips:
+          Here are some tips on how you change your laundry routine:
           <ul>
             <li>
-              Wash less often. Check out{" "}
+              <b>Wash less often</b> (check out{" "}
               <a href="https://www.businessinsider.sg/how-often-to-wash-jeans-and-clothes-2017-5/">
                 this guide
               </a>{" "}
-              to see how often you should wash your clothes
+              to see how often clothes should be washed)
             </li>
-            <li>Wash cold</li>
-            <li>Use gentle cycle</li>
-            <li>Air dry</li>
             <li>
-              Use{" "}
-              <a href="https://guppyfriend.com/en/">Guppyfriend wash bags</a> to
-              collect all microplastics from your clothes
+              <b>Wash cold</b>
+            </li>
+            <li>
+              <b>Use gentle cycle</b>
+            </li>
+            <li>
+              <b>Air dry</b> instead of machine dried
+            </li>
+            <li>
+              <b>
+                Use <a href="https://guppyfriend.com/en/">Guppyfriend bags</a>
+              </b>{" "}
+              to prevent harmful microplastics from entering rivers and oceans
             </li>
           </ul>
           <br />
-          Bonus points: you'll save so much on electricity and water bills too!
           <img
             className="centered tip14-illustration"
-            src="img/grey.jpg"
+            src="img/tip14_illustrations/washing_machine.svg"
             alt="drawing"
           />
         </div>

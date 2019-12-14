@@ -9,7 +9,7 @@ class Tip15 extends Component {
     this.state = {
       id: 15,
       title: "Hey Girls, Free Your Period from Plastic!",
-      image: "img/grey.jpg",
+      image: "img/tip15_cover.svg",
       linkToPrevTip: "tip14",
       productsList: []
     };
@@ -51,13 +51,14 @@ class Tip15 extends Component {
         />
 
         <div className="post-content">
-          Period pags and tampons are great products for us girls, and we can't
-          live without them. However they also come with lots of plastic in the
-          wrappers and packaging. They're also disposed to landfill after each
-          use, which makes them a great polluter.
+          Period pads and tampons are essential for us girls - we can't live
+          without them. However they also come with lots of plastic in the
+          wrappers and packaging. They're also non-recyclable, hence end up in
+          landfill after a single use.
           <br />
           So why not make a simple switch with these revolutionary products
-          below! They can be reused over and over again and super comfy too!
+          below? They can be reused over and over again, are are super comfy
+          too!
           {this.state.productsList.map(item => {
             return (
               <ul key={item.id}>
@@ -70,7 +71,7 @@ class Tip15 extends Component {
           <br />
           <img
             className="centered tip15-illustration"
-            src="img/grey.jpg"
+            src="img/tip15_illustrations/shethinx.svg"
             alt="drawing"
           />
         </div>

@@ -92,19 +92,19 @@ class TipList extends Component {
         {
           id: 13,
           name: "Bin Your Gum & Butts!",
-          image: "img/grey.jpg",
+          image: "img/tip13_square.svg",
           linkTo: "/tip13"
         },
         {
           id: 14,
-          name: "Change Your Washing",
-          image: "img/grey.jpg",
+          name: "Change Your Washing Game",
+          image: "img/tip14_square.svg",
           linkTo: "/tip14"
         },
         {
           id: 15,
           name: "Hey Girls, Free Your Period from Plastic!",
-          image: "img/grey.jpg",
+          image: "img/tip15_square.svg",
           linkTo: "/tip15"
         }
       ]
@@ -119,15 +119,6 @@ class TipList extends Component {
             <Tip key={index} obj={tip} />
           ))}
         </div>
-
-        <h4 className="instagram-profile-title">@HOWTOREDUCEPLASTIC</h4>
-        <iframe
-          src="https://cdn.lightwidget.com/widgets/7cb731569b1f5f35a28cc0aa101846f2.html"
-          scrolling="no"
-          allowtransparency="true"
-          className="lightwidget-widget"
-          style={{ width: "80%" }}
-        ></iframe>
       </div>
     );
   }
