@@ -31,9 +31,8 @@ class About extends Component {
           <br />
           <p id="about-subtitle">Suggestions?</p>
           If you have any feedback, suggestions or simply want to chat, feel
-          free to <a href="mailto:hellouyenle@gmail.com">drop me an email</a> or
-          tweet me at <a href="https://twitter.com/uyenlex">@uyenlex</a>. I'd
-          love to hear from you!{" "}
+          free to <a href="mailto:hellouyenle@gmail.com">drop me an email</a>.
+          I'd love to hear from you!{" "}
           <span role="img" aria-label="Smiley Face">
             😊
           </span>
@@ -47,19 +46,6 @@ class About extends Component {
           </a>
           !
         </div>
-        <h4 className="instagram-profile-title">
-          Follow @
-          <a href="https://www.instagram.com/howtoreduceplastic/">
-            HOWTOREDUCEPLASTIC
-          </a>
-        </h4>
-        <iframe
-          src="https://cdn.lightwidget.com/widgets/7cb731569b1f5f35a28cc0aa101846f2.html"
-          scrolling="no"
-          allowtransparency="true"
-          className="lightwidget-widget"
-          style={{ width: "80%" }}
-        ></iframe>
       </div>
     );
   }
