@@ -28,7 +28,8 @@ import Tip15 from "./components/blogComponent/blogContent/tip15";
 class App extends Component {
   render() {
     return (
-      <Router basename={window.location.pathname || ''}>
+      // <Router basename={window.location.pathname || ''}>
+      <Router basename="/howtoreduceplastic">
         <div className="App">
           <Header />
 
