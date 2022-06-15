@@ -68,7 +68,7 @@ class Footer extends Component {
               </li>
             </div>
             <li id="author-link">
-              Made by <a href="https://uyenlex.com">Uyen Le</a>
+              Made by <a href="http://uyenle5796.github.io">Uyen Le</a>
             </li>
           </ul>
         </nav>
