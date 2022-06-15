@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { HashRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { HashRouter, Route, Switch } from "react-router-dom";
 import "./Assets/css/default.min.css";
 
 //Components
@@ -29,34 +29,34 @@ import Tip15 from "./components/blogComponent/blogContent/tip15";
 class App extends Component {
   render() {
     return (
-      // <Router basename={window.location.pathname || ''}>
-      <HashRouter basename="/howtoreduceplastic">
+      <Router basename={window.location.pathname || ""}>
+        {/* <HashRouter basename="/howtoreduceplastic"> */}
         <div className="App">
           <Header />
 
           <Switch>
-            <Route exact path="/" component={HomePage} />
-            <Route exact path="/about" component={About} />
-            <Route path="/tip1" component={Tip1} />
-            <Route path="/tip2" component={Tip2} />
-            <Route path="/tip3" component={Tip3} />
-            <Route path="/tip4" component={Tip4} />
-            <Route path="/tip5" component={Tip5} />
-            <Route path="/tip6" component={Tip6} />
-            <Route path="/tip7" component={Tip7} />
-            <Route path="/tip8" component={Tip8} />
-            <Route path="/tip9" component={Tip9} />
-            <Route path="/tip10" component={Tip10} />
-            <Route path="/tip11" component={Tip11} />
-            <Route path="/tip12" component={Tip12} />
-            <Route path="/tip13" component={Tip13} />
-            <Route path="/tip14" component={Tip14} />
-            <Route path="/tip15" component={Tip15} />
+            <Route exact path="/howtoreduceplastic/" component={HomePage} />
+            <Route exact path="/howtoreduceplastic/about" component={About} />
+            <Route path="/howtoreduceplastic/tip1" component={Tip1} />
+            <Route path="/howtoreduceplastic/tip2" component={Tip2} />
+            <Route path="/howtoreduceplastic/tip3" component={Tip3} />
+            <Route path="/howtoreduceplastic/tip4" component={Tip4} />
+            <Route path="/howtoreduceplastic/tip5" component={Tip5} />
+            <Route path="/howtoreduceplastic/tip6" component={Tip6} />
+            <Route path="/howtoreduceplastic/tip7" component={Tip7} />
+            <Route path="/howtoreduceplastic/tip8" component={Tip8} />
+            <Route path="/howtoreduceplastic/tip9" component={Tip9} />
+            <Route path="/howtoreduceplastic/tip10" component={Tip10} />
+            <Route path="/howtoreduceplastic/tip11" component={Tip11} />
+            <Route path="/howtoreduceplastic/tip12" component={Tip12} />
+            <Route path="/howtoreduceplastic/tip13" component={Tip13} />
+            <Route path="/howtoreduceplastic/tip14" component={Tip14} />
+            <Route path="/howtoreduceplastic/tip15" component={Tip15} />
           </Switch>
 
           <Footer />
         </div>
-      </HashRouter>
+      </Router>
     );
   }
 }
