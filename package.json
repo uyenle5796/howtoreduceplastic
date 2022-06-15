@@ -1,5 +1,6 @@
 {
   "name": "howtoreduceplastic",
+  "homepage": "https://tomerpacific.github.io/howtoreduceplastic/",
   "version": "1.0.0",
   "private": true,
   "engines": {
@@ -7,12 +8,15 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "gh-pages": "^4.0.0",
     "gulp-changed": "^3.2.0",
     "gulp-csso": "^3.0.1",
     "gulp-rename": "^1.4.0",

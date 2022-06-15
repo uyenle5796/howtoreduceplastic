@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import "./Assets/css/default.min.css";
 
 //Components
@@ -29,7 +30,7 @@ class App extends Component {
   render() {
     return (
       // <Router basename={window.location.pathname || ''}>
-      <Router basename="/howtoreduceplastic">
+      <HashRouter basename="/howtoreduceplastic">
         <div className="App">
           <Header />
 
@@ -55,7 +56,7 @@ class App extends Component {
 
           <Footer />
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
