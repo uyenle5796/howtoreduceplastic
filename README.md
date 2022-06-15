@@ -1,5 +1,7 @@
 # How To Reduce Plastic
 
+![screenshot](./screenshot.png)
+
 ### Prerequisites
 
 - Node <= v10.15.3
@@ -8,9 +10,11 @@
 
 ### Start the app in Development
 
+Run the following in two separate windows:
+
 ```
 $ gulp
 $ npm start
 ```
 
-Go to [localhost:3000](localhost:3000) on browser.
+Open http://localhost:3000/ on your browser.
