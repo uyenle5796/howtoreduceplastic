@@ -1,6 +1,15 @@
 {
-  "main.css": "static/css/main.c73a8a8a.css",
-  "main.css.map": "static/css/main.c73a8a8a.css.map",
-  "main.js": "static/js/main.e1846d4d.js",
-  "main.js.map": "static/js/main.e1846d4d.js.map"
+  "files": {
+    "main.css": "/howtoreduceplastic/static/css/main.d362a221.chunk.css",
+    "main.js": "/howtoreduceplastic/static/js/main.48f1939f.chunk.js",
+    "main.js.map": "/howtoreduceplastic/static/js/main.48f1939f.chunk.js.map",
+    "runtime~main.js": "/howtoreduceplastic/static/js/runtime~main.5f5e7617.js",
+    "runtime~main.js.map": "/howtoreduceplastic/static/js/runtime~main.5f5e7617.js.map",
+    "static/js/2.9cfe76d4.chunk.js": "/howtoreduceplastic/static/js/2.9cfe76d4.chunk.js",
+    "static/js/2.9cfe76d4.chunk.js.map": "/howtoreduceplastic/static/js/2.9cfe76d4.chunk.js.map",
+    "index.html": "/howtoreduceplastic/index.html",
+    "precache-manifest.b0005f5830cde5cff3f4bf7654756137.js": "/howtoreduceplastic/precache-manifest.b0005f5830cde5cff3f4bf7654756137.js",
+    "service-worker.js": "/howtoreduceplastic/service-worker.js",
+    "static/css/main.d362a221.chunk.css.map": "/howtoreduceplastic/static/css/main.d362a221.chunk.css.map"
+  }
 }
