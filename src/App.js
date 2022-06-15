@@ -28,7 +28,7 @@ import Tip15 from "./components/blogComponent/blogContent/tip15";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={window.location.pathname || ''}>
         <div className="App">
           <Header />
 
